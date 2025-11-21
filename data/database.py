@@ -126,7 +126,6 @@ def generate_employees():
             'employee_ID': employee_id,
             'Name': name,
             'Role': 'Manager',
-            'team_ID': None,  # Managers don't have teams
             'Contact': fake.email(),
             'seniority_level': random.choice(['Junior', 'Senior', 'Director']),
             'license_number': None  # Managers don't have licenses
@@ -293,7 +292,6 @@ maintenance_records = []
 for record in random.sample(records, 1500):
     maintenance_records.append({
         'record_ID': record['record_ID'],
-        'team_ID': random.randint(1, 60),  # Now teams are 1-60
         'Description': fake.sentence(nb_words=6) + " maintenance",
         'Status': random.choice(['Completed', 'Pending', 'In Progress', 'Cancelled'])
     })
