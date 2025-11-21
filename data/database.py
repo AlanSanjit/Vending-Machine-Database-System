@@ -74,7 +74,7 @@ def generate_record_id():
 def generate_employee_id(role):
     """Generate employee ID in format MA#####[5 digits] for Management or TE#####[5 digits] for Technician"""
     number = f"{random.randint(10000, 99999)}"
-    if role == 'Management':
+    if role == 'Manager':
         return f"MA{number}"
     else:  # Technician
         return f"TE{number}"
@@ -126,8 +126,9 @@ def generate_employees():
             'employee_ID': employee_id,
             'Name': name,
             'Role': 'Manager',
+            'team_ID': None,  # Managers don't have teams
             'Contact': fake.email(),
-            'seniority_level': random.choice(['Junior', 'Senior', 'Director']),
+            'seniority_level': random.choice(['Junior', 'Mid', 'Senior', 'Lead']),  # Managers still have seniority levels
             'license_number': None  # Managers don't have licenses
         })
     
@@ -148,21 +149,19 @@ def generate_employees():
             
             # Make the first technician in each team a lead technician
             if j == 0:
-                is_lead = True
+                role = 'Lead Technician'
                 license_number = f"LIC-{random.randint(10000, 99999)}"
-                seniority_level = "Lead"  # Lead technician
             else:
-                is_lead = False
+                role = 'Technician'
                 license_number = f"LIC-{random.randint(10000, 99999)}"
-                seniority_level = None  # Regular technician
             
             employees.append({
                 'employee_ID': employee_id,
                 'Name': name,
-                'Role': 'Technician',
+                'Role': role,  # 'Technician' or 'Lead Technician'
                 'team_ID': team_id,
                 'Contact': fake.email(),
-                'seniority_level': seniority_level,  # "Lead" for team leaders, None for others
+                'seniority_level': None,  # Technicians don't have seniority levels anymore
                 'license_number': license_number
             })
             
@@ -175,7 +174,7 @@ def generate_employees():
     # Update the supervisor in the employee list
     for emp in employees:
         if emp['employee_ID'] == supervisor_id:
-            emp['seniority_level'] = 'Supervisor'
+            emp['Role'] = 'Supervisor'  # Change role to Supervisor
             break
     
     return employees
@@ -268,7 +267,7 @@ def generate_records(count=5000):
     return records
 
 # --- Generate Data ---
-print("Generating realistic data with new employee structure and team organization...")
+print("Generating realistic data with new technician role structure...")
 manufacturers = generate_manufacturers()
 models = generate_models()
 employees = generate_employees()
@@ -292,6 +291,7 @@ maintenance_records = []
 for record in random.sample(records, 1500):
     maintenance_records.append({
         'record_ID': record['record_ID'],
+        'team_ID': random.randint(1, 60),  # Now teams are 1-60
         'Description': fake.sentence(nb_words=6) + " maintenance",
         'Status': random.choice(['Completed', 'Pending', 'In Progress', 'Cancelled'])
     })
@@ -326,12 +326,3 @@ write_csv('Payment_Record.csv', ['record_ID', 'payment_Type', 'Amount'], payment
 write_csv('Maintenance_Record.csv', ['record_ID', 'team_ID', 'Description', 'Status'], maintenance_records)
 write_csv('Restock_Record.csv', ['record_ID', 'Quantity', 'Cost'], restock_records)
 
-print("✅ CSV files generated successfully with new employee structure!")
-print(f"📁 Files created: Manufacturer.csv, Model.csv, Employee.csv, Customer.csv, Vending_Machine.csv, Stock.csv, Record.csv, Payment_Record.csv, Maintenance_Record.csv, Restock_Record.csv")
-print("\nNew Employee Structure:")
-print("- 200 Managers: MA##### (ID format), have seniority levels (Junior/Mid/Senior/Lead), no teams")
-print("- 300 Technicians: TE##### (ID format), organized into 60 teams of 5")
-print("- Each team has 1 Lead Technician (seniority_level = 'Lead')")
-print("- 1 overall Supervisor (selected from team leads, seniority_level = 'Supervisor')")
-print("- Managers: team_ID = NULL, Technicians: team_ID = 1-60")
-print("- Technicians: have license numbers, Managers: no license numbers")
