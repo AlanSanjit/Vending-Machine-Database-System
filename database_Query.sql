@@ -1,3 +1,8 @@
+DROP DATABASE IF EXISTS VendingDB;
+CREATE DATABASE VendingDB;
+USE VendingDB;
+
+DROP TABLE IF EXISTS Model;
 CREATE TABLE Model (
     model_Type VARCHAR(50)   NOT NULL,
     price      DECIMAL(10,2) NOT NULL,
@@ -6,6 +11,7 @@ CREATE TABLE Model (
     CONSTRAINT pk_Model PRIMARY KEY (model_Type)
 );
 
+DROP TABLE IF EXISTS Manufacturer;
 CREATE TABLE Manufacturer (
     supplier_ID     CHAR(10)      NOT NULL,
     manufac_Brand   VARCHAR(100)  NOT NULL,
@@ -22,6 +28,7 @@ CREATE TABLE Manufacturer (
         REFERENCES Model(model_Type)
 );
 
+DROP TABLE IF EXISTS Employee;
 CREATE TABLE Employee (
     employee_ID VARCHAR(50)  NOT NULL,
     f_Name      VARCHAR(50)  NOT NULL,
@@ -34,6 +41,7 @@ CREATE TABLE Employee (
     CONSTRAINT chk_Employee_Role CHECK (Role IN ('Technician','Supervisor_Tech','Lead_Tech','Management')),
 );
 
+DROP TABLE IF EXISTS Maintenance;
 CREATE TABLE Maintenance (
     employee_ID VARCHAR(50) NOT NULL,
     lic_No      VARCHAR(50) NOT NULL,
@@ -44,6 +52,7 @@ CREATE TABLE Maintenance (
         FOREIGN KEY (employee_ID) REFERENCES Employee(employee_ID)
 );
 
+DROP TABLE IF EXISTS Management;
 CREATE TABLE Management (
     employee_ID  VARCHAR(50) NOT NULL,
     seniority_Lvl VARCHAR(20) NOT NULL,
@@ -55,6 +64,7 @@ CREATE TABLE Management (
         FOREIGN KEY (employee_ID) REFERENCES Employee(employee_ID)
 );
 
+DROP TABLE IF EXISTS Vending_Machine;
 CREATE TABLE Vending_Machine (
     machine_ID     VARCHAR(50)  NOT NULL,
     Status         VARCHAR(20)  NOT NULL,
@@ -65,6 +75,7 @@ CREATE TABLE Vending_Machine (
         (Status IN ('functional', 'repair', 'decommissioned'))
 );
 
+DROP TABLE IF EXISTS Record;
 CREATE TABLE Record (
     record_ID      INT  NOT NULL,
     date_Requested DATE NOT NULL,
@@ -73,6 +84,7 @@ CREATE TABLE Record (
     CONSTRAINT pk_Record PRIMARY KEY (record_ID)
 );
 
+DROP TABLE IF EXISTS Maintenance_Record;
 CREATE TABLE Maintenance_Record (
     record_ID   INT          NOT NULL,
     Description VARCHAR(255) NOT NULL,
@@ -85,6 +97,7 @@ CREATE TABLE Maintenance_Record (
         (Status IN ('functional', 'repair', 'decommissioned'))
 );
 
+DROP TABLE IF EXISTS Payment_Record;
 CREATE TABLE Payment_Record (
     record_ID    INT           NOT NULL,
     payment_Type VARCHAR(50)   NOT NULL,
@@ -95,6 +108,7 @@ CREATE TABLE Payment_Record (
         FOREIGN KEY (record_ID) REFERENCES Record(record_ID)
 );
 
+DROP TABLE IF EXISTS Restock_Record;
 CREATE TABLE Restock_Record (
     record_ID INT           NOT NULL,
     Quantity  INT           NOT NULL,
@@ -105,6 +119,7 @@ CREATE TABLE Restock_Record (
         FOREIGN KEY (record_ID) REFERENCES Record(record_ID)
 );
 
+DROP TABLE IF EXISTS Stock;
 CREATE TABLE Stock (
     item_ID        INT           NOT NULL,
     Name           VARCHAR(100)  NOT NULL,
@@ -115,6 +130,7 @@ CREATE TABLE Stock (
     CONSTRAINT pk_Stock PRIMARY KEY (item_ID)
 );
 
+DROP TABLE IF EXISTS Customer;
 CREATE TABLE Customer (
     customer_ID    INT           NOT NULL,
     Email          VARCHAR(255)  NOT NULL,
