@@ -71,9 +71,13 @@ def generate_record_id():
     random.shuffle(chars)
     return ''.join(chars)
 
-def generate_employee_id():
-    """Generate 5-digit employee ID"""
-    return random.randint(10000, 99999)
+def generate_employee_id(role):
+    """Generate employee ID in format MA#####[5 digits] for Management or TE#####[5 digits] for Technician"""
+    number = f"{random.randint(10000, 99999)}"
+    if role == 'Management':
+        return f"MA{number}"
+    else:  # Technician
+        return f"TE{number}"
 
 # --- Data Generation Functions ---
 def generate_manufacturers(count=100):
@@ -106,31 +110,75 @@ def generate_models(count=6):
         })
     return models
 
-def generate_employees(count=500):
+def generate_employees():
     employees = []
     used_ids = set()
-    for i in range(count):
-        employee_id = generate_employee_id()
+    
+    # Generate 200 Managers
+    for i in range(200):
+        employee_id = generate_employee_id('Manager')
         while employee_id in used_ids:
-            employee_id = generate_employee_id()
+            employee_id = generate_employee_id('Manager')
         used_ids.add(employee_id)
         
         name = fake.name()
-        role = random.choice(['Manager', 'Technician'])
-        # Add seniority level for Management role
-        seniority_level = random.choice(['Junior', 'Mid', 'Senior', 'Lead']) if role == 'Manager' else None
-        # Add maintenance license for Technician role
-        license_number = f"LIC-{random.randint(10000, 99999)}" if role == 'Technician' else None
-        
         employees.append({
             'employee_ID': employee_id,
             'Name': name,
-            'Role': role,
-            'team_ID': random.randint(1, 100),
+            'Role': 'Manager',
+            'team_ID': None,  # Managers don't have teams
             'Contact': fake.email(),
-            'seniority_level': seniority_level,  # New field for Management
-            'license_number': license_number   # New field for Technician
+            'seniority_level': random.choice(['Junior', 'Senior', 'Director']),
+            'license_number': None  # Managers don't have licenses
         })
+    
+    # Generate 300 Technicians
+    # First, create 60 teams (300/5 = 60 teams)
+    team_leaders = []
+    supervisor = None
+    
+    for team_id in range(1, 61):  # Teams 1-60
+        # Create 5 technicians per team
+        for j in range(5):
+            employee_id = generate_employee_id('Technician')
+            while employee_id in used_ids:
+                employee_id = generate_employee_id('Technician')
+            used_ids.add(employee_id)
+            
+            name = fake.name()
+            
+            # Make the first technician in each team a lead technician
+            if j == 0:
+                is_lead = True
+                license_number = f"LIC-{random.randint(10000, 99999)}"
+                seniority_level = "Lead"  # Lead technician
+            else:
+                is_lead = False
+                license_number = f"LIC-{random.randint(10000, 99999)}"
+                seniority_level = None  # Regular technician
+            
+            employees.append({
+                'employee_ID': employee_id,
+                'Name': name,
+                'Role': 'Technician',
+                'team_ID': team_id,
+                'Contact': fake.email(),
+                'seniority_level': seniority_level,  # "Lead" for team leaders, None for others
+                'license_number': license_number
+            })
+            
+            # Store the first technician of each team as a potential lead
+            if j == 0:
+                team_leaders.append(employee_id)
+    
+    # Select one technician to be the supervisor for all technicians
+    supervisor_id = random.choice(team_leaders)  # Pick one of the team leads
+    # Update the supervisor in the employee list
+    for emp in employees:
+        if emp['employee_ID'] == supervisor_id:
+            emp['seniority_level'] = 'Supervisor'
+            break
+    
     return employees
 
 def generate_customers(count=500):
@@ -221,7 +269,7 @@ def generate_records(count=5000):
     return records
 
 # --- Generate Data ---
-print("Generating realistic data with completely random, unique IDs...")
+print("Generating realistic data with new employee structure and team organization...")
 manufacturers = generate_manufacturers()
 models = generate_models()
 employees = generate_employees()
@@ -245,7 +293,7 @@ maintenance_records = []
 for record in random.sample(records, 1500):
     maintenance_records.append({
         'record_ID': record['record_ID'],
-        'team_ID': random.randint(1, 100),
+        'team_ID': random.randint(1, 60),  # Now teams are 1-60
         'Description': fake.sentence(nb_words=6) + " maintenance",
         'Status': random.choice(['Completed', 'Pending', 'In Progress', 'Cancelled'])
     })
@@ -280,6 +328,12 @@ write_csv('Payment_Record.csv', ['record_ID', 'payment_Type', 'Amount'], payment
 write_csv('Maintenance_Record.csv', ['record_ID', 'team_ID', 'Description', 'Status'], maintenance_records)
 write_csv('Restock_Record.csv', ['record_ID', 'Quantity', 'Cost'], restock_records)
 
-print("✅ CSV files generated successfully with completely random, unique IDs!")
+print("✅ CSV files generated successfully with new employee structure!")
 print(f"📁 Files created: Manufacturer.csv, Model.csv, Employee.csv, Customer.csv, Vending_Machine.csv, Stock.csv, Record.csv, Payment_Record.csv, Maintenance_Record.csv, Restock_Record.csv")
-
+print("\nNew Employee Structure:")
+print("- 200 Managers: MA##### (ID format), have seniority levels (Junior/Mid/Senior/Lead), no teams")
+print("- 300 Technicians: TE##### (ID format), organized into 60 teams of 5")
+print("- Each team has 1 Lead Technician (seniority_level = 'Lead')")
+print("- 1 overall Supervisor (selected from team leads, seniority_level = 'Supervisor')")
+print("- Managers: team_ID = NULL, Technicians: team_ID = 1-60")
+print("- Technicians: have license numbers, Managers: no license numbers")
