@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS VendingDB;
-CREATE DATABASE VendingDB;
-USE VendingDB;
+DROP DATABASE IF EXISTS vending_machine_database_system;
+CREATE DATABASE vending_machine_database_system;
+USE vending_machine_database_system;
 
 DROP TABLE IF EXISTS Model;
 CREATE TABLE Model (
@@ -14,28 +14,25 @@ CREATE TABLE Model (
 DROP TABLE IF EXISTS Manufacturer;
 CREATE TABLE Manufacturer (
     supplier_ID     CHAR(10)      NOT NULL,
-    manufac_Brand   VARCHAR(100)  NOT NULL,
-    contact_Email   VARCHAR(255)  NOT NULL,
-    contact_Number  VARCHAR(20)   NOT NULL,
+    manufact_Brand  VARCHAR(100)  NOT NULL,
+    contactInfo     VARCHAR(255)  NOT NULL,
     supply_Type     VARCHAR(50)   NOT NULL,
     Price           DECIMAL(10,2) NOT NULL,
 
     CONSTRAINT pk_Manufacturer PRIMARY KEY (supplier_ID),
-    CONSTRAINT uq_Manufacturer_Email UNIQUE (contact_Email),
-    CONSTRAINT uq_Manufacturer_Number UNIQUE (contact_Number),
-    CONSTRAINT fk_Manufacturer_SupplyType
-        FOREIGN KEY (supply_Type)
-        REFERENCES Model(model_Type)
+    CONSTRAINT uq_Manufacturer_Email UNIQUE (contactInfo)
 );
 
 DROP TABLE IF EXISTS Employee;
 CREATE TABLE Employee (
-    employee_ID VARCHAR(50)  NOT NULL,
-    f_Name      VARCHAR(50)  NOT NULL,
-    l_Name      VARCHAR(50)  NOT NULL,
-    Role        VARCHAR(50)  NOT NULL,
-    work_Email  VARCHAR(255) NOT NULL,
-
+    employee_ID      VARCHAR(50)  NOT NULL,
+    f_Name           VARCHAR(50)  NOT NULL,
+    l_Name           VARCHAR(50)  NOT NULL,
+    role             VARCHAR(50)  NOT NULL,
+    work_email       VARCHAR(255) NOT NULL,
+    lic_num          VARCHAR(50)  NOT NULL,
+    seniority_level  VARCHAR(50)  NOT NULL,
+    
     CONSTRAINT pk_Employee PRIMARY KEY (employee_ID),
     CONSTRAINT uq_Employee_Email UNIQUE (work_Email),
     CONSTRAINT chk_Employee_Role CHECK (Role IN ('Technician','Supervisor_Tech','Lead_Tech','Management'))
@@ -45,21 +42,17 @@ DROP TABLE IF EXISTS Maintenance;
 CREATE TABLE Maintenance (
     employee_ID VARCHAR(50) NOT NULL,
     lic_No      VARCHAR(50) NOT NULL,
-
     CONSTRAINT pk_Maintenance PRIMARY KEY (employee_ID),
-    CONSTRAINT spec_Employee CHECK (employee_ID IN (SELECT employee_ID FROM Employee WHERE Role = ('Technician', 'Supervisor_Tech', 'Lead_Tech'))),
     CONSTRAINT fk_Maintenance_Employee
         FOREIGN KEY (employee_ID) REFERENCES Employee(employee_ID)
 );
 
 DROP TABLE IF EXISTS Management;
 CREATE TABLE Management (
-    employee_ID  VARCHAR(50) NOT NULL,
+    employee_ID   VARCHAR(50) NOT NULL,
     seniority_Lvl VARCHAR(20) NOT NULL,
-
     CONSTRAINT pk_Management PRIMARY KEY (employee_ID),
-    CONSTRAINT spec_Employee CHECK (employee_ID IN (SELECT employee_ID FROM Employee WHERE Role = 'Management')),
-    CONSTRAINT spec_seniority_Lvl CHECK (seniority_Lvl IN ('Junior','Senior','Director')),
+    CONSTRAINT spec_seniority_Lvl CHECK (TRIM(seniority_Lvl) IN ('Junior','Senior','Director')),
     CONSTRAINT fk_Management_Employee
         FOREIGN KEY (employee_ID) REFERENCES Employee(employee_ID)
 );
@@ -147,3 +140,89 @@ CREATE TABLE Customer (
     CONSTRAINT chk_Customer_AccountType CHECK 
         (account_Type IN ('Standard','Premium'))
 );
+
+LOAD DATA LOCAL INFILE 'C:/Users/Anura/OneDrive/Desktop/Third Year/AISE 3309/Project/Vending-Machine-Database-System/data/Model.csv'
+INTO TABLE Model
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE 'C:/Users/Anura/OneDrive/Desktop/Third Year/AISE 3309/Project/Vending-Machine-Database-System/data/Manufacturer.csv'
+INTO TABLE Manufacturer
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE 'C:/Users/Anura/OneDrive/Desktop/Third Year/AISE 3309/Project/Vending-Machine-Database-System/data/Employee.csv'
+INTO TABLE Employee
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE 'C:/Users/Anura/OneDrive/Desktop/Third Year/AISE 3309/Project/Vending-Machine-Database-System/data/Maintenance.csv'
+INTO TABLE Maintenance
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE 'C:/Users/Anura/OneDrive/Desktop/Third Year/AISE 3309/Project/Vending-Machine-Database-System/data/Management.csv'
+INTO TABLE Management
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 ROWS
+(employee_ID, @level)
+SET seniority_Lvl = TRIM(@level);
+
+LOAD DATA LOCAL INFILE 'C:/Users/Anura/OneDrive/Desktop/Third Year/AISE 3309/Project/Vending-Machine-Database-System/data/Customer.csv'
+INTO TABLE Customer
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE 'C:/Users/Anura/OneDrive/Desktop/Third Year/AISE 3309/Project/Vending-Machine-Database-System/data/Vending_Machine.csv'
+INTO TABLE Vending_Machine
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE 'C:/Users/Anura/OneDrive/Desktop/Third Year/AISE 3309/Project/Vending-Machine-Database-System/data/Stock.csv'
+INTO TABLE Stock
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE 'C:/Users/Anura/OneDrive/Desktop/Third Year/AISE 3309/Project/Vending-Machine-Database-System/data/Record.csv'
+INTO TABLE Record
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE 'C:/Users/Anura/OneDrive/Desktop/Third Year/AISE 3309/Project/Vending-Machine-Database-System/data/Payment_Record.csv'
+INTO TABLE Payment_Record
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE 'C:/Users/Anura/OneDrive/Desktop/Third Year/AISE 3309/Project/Vending-Machine-Database-System/data/Maintenance_Record.csv'
+INTO TABLE Maintenance_Record
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE 'C:/Users/Anura/OneDrive/Desktop/Third Year/AISE 3309/Project/Vending-Machine-Database-System/data/Restock_Record.csv'
+INTO TABLE Restock_Record
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;

@@ -1,0 +1,1667 @@
+record_ID,payment_Type,amount_Paid
+46948,Apple Pay,27.45
+2906,Google Pay,42.32
+87219,Bank Transfer,5.11
+68271,Mobile Pay,20.79
+10067,Google Pay,94.49
+61436,Bank Transfer,82.31
+34433,Google Pay,40.5
+78360,Mobile Pay,80.26
+25272,Bank Transfer,15.54
+25477,Bank Transfer,38.29
+75772,Apple Pay,17.76
+85744,Debit Card,7.04
+23210,Bank Transfer,117.07
+54264,Cash,58.43
+41771,Debit Card,46.18
+61212,Credit Card,43.24
+52897,Google Pay,11.65
+86914,Google Pay,23.04
+15267,Cash,8.11
+87497,Debit Card,33.12
+22486,Debit Card,59.44
+61288,Credit Card,123.59
+2135,Mobile Pay,23.51
+34503,Google Pay,11.48
+81964,Bank Transfer,82.13
+11925,Mobile Pay,6.7
+46490,Cash,5.53
+51484,Mobile Pay,11.15
+32510,Apple Pay,18.8
+98999,Google Pay,58.4
+22681,Cash,61.51
+36634,Cash,6.21
+12157,Mobile Pay,7.1
+10854,Mobile Pay,94.03
+49267,Debit Card,29.46
+18055,Mobile Pay,1.88
+46446,Bank Transfer,72.72
+74904,Bank Transfer,28.83
+56744,Mobile Pay,33.46
+69914,Credit Card,116.56
+2921,Credit Card,75.1
+62188,Google Pay,39.7
+31090,Mobile Pay,23.69
+29432,Apple Pay,15.72
+46658,Cash,43.9
+25090,Apple Pay,128.79
+82819,Credit Card,46.01
+45439,Credit Card,26.79
+99647,Bank Transfer,93.35
+52322,Google Pay,35.64
+8301,Debit Card,69.15
+84952,Google Pay,48.38
+53888,Cash,31.64
+97420,Mobile Pay,107.55
+54856,Debit Card,30.49
+97014,Mobile Pay,55.59
+16150,Cash,6.87
+36483,Mobile Pay,12.94
+29373,Apple Pay,18.95
+70561,Google Pay,114.39
+96153,Mobile Pay,81.36
+82936,Cash,14.46
+7238,Mobile Pay,41.81
+60182,Debit Card,39.2
+72591,Apple Pay,127.42
+34699,Debit Card,24.09
+70778,Credit Card,10.95
+26741,Bank Transfer,29.16
+31148,Debit Card,7.79
+65771,Credit Card,38.43
+50007,Credit Card,126.89
+76153,Google Pay,24.4
+4824,Google Pay,35.95
+84742,Apple Pay,12.47
+77523,Debit Card,18.85
+24906,Apple Pay,64.4
+1617,Debit Card,19.3
+61482,Google Pay,10.59
+93156,Bank Transfer,89.92
+38688,Bank Transfer,10.94
+81930,Debit Card,25.65
+74483,Cash,23.4
+96676,Debit Card,17.43
+90460,Bank Transfer,23.38
+24867,Credit Card,40.6
+92862,Credit Card,37.62
+85142,Credit Card,89.54
+82500,Bank Transfer,10.68
+86270,Mobile Pay,9.03
+15265,Bank Transfer,26.99
+45553,Cash,31.73
+75280,Debit Card,17.81
+42699,Apple Pay,9.95
+38407,Google Pay,18.56
+13713,Bank Transfer,111.37
+87238,Mobile Pay,44.65
+54038,Credit Card,33.06
+32684,Debit Card,89.17
+62124,Bank Transfer,39.27
+25230,Google Pay,33.29
+30086,Google Pay,59.91
+87528,Google Pay,57.52
+60372,Google Pay,9.78
+37704,Credit Card,107.6
+74084,Apple Pay,8.43
+3738,Mobile Pay,5.97
+19111,Apple Pay,63.14
+53902,Bank Transfer,13.14
+77263,Debit Card,109.77
+31921,Google Pay,28.37
+68883,Debit Card,2.76
+78646,Apple Pay,74.63
+15761,Debit Card,71.13
+72140,Cash,51.05
+11360,Bank Transfer,20.9
+54092,Apple Pay,7.15
+21137,Bank Transfer,92.92
+63165,Cash,8.89
+51376,Google Pay,85.79
+36082,Mobile Pay,38.59
+65704,Google Pay,56.0
+34770,Google Pay,49.14
+55466,Google Pay,29.54
+69685,Debit Card,86.72
+80509,Debit Card,22.66
+92245,Bank Transfer,37.04
+51918,Debit Card,21.46
+25944,Debit Card,6.54
+77444,Credit Card,41.44
+1080,Cash,89.96
+41755,Bank Transfer,27.32
+6554,Credit Card,24.29
+19118,Bank Transfer,13.62
+64461,Bank Transfer,11.08
+99695,Mobile Pay,81.67
+70814,Mobile Pay,40.67
+76628,Credit Card,31.73
+11821,Debit Card,77.4
+63495,Google Pay,22.94
+94093,Credit Card,30.47
+57291,Credit Card,15.83
+19042,Bank Transfer,9.81
+33212,Google Pay,13.69
+46001,Apple Pay,94.55
+9043,Credit Card,79.99
+21886,Credit Card,6.15
+27377,Debit Card,56.06
+20548,Mobile Pay,53.83
+63205,Debit Card,22.68
+50924,Bank Transfer,52.63
+36748,Debit Card,37.19
+91444,Debit Card,17.67
+44861,Credit Card,3.1
+56786,Debit Card,8.24
+11315,Debit Card,70.09
+95685,Apple Pay,12.27
+25950,Google Pay,57.6
+53024,Google Pay,72.18
+47802,Credit Card,23.13
+42779,Bank Transfer,75.42
+38699,Mobile Pay,23.69
+71563,Cash,83.49
+41046,Bank Transfer,42.65
+66447,Bank Transfer,34.1
+48496,Mobile Pay,46.44
+7059,Credit Card,87.41
+96097,Apple Pay,17.05
+3741,Google Pay,60.55
+80445,Debit Card,47.0
+58964,Cash,13.15
+70405,Debit Card,34.05
+69656,Credit Card,79.23
+46472,Debit Card,34.29
+36036,Apple Pay,20.75
+38845,Cash,41.12
+38589,Apple Pay,79.45
+43349,Mobile Pay,59.28
+82603,Google Pay,17.83
+6152,Bank Transfer,74.87
+84410,Bank Transfer,102.74
+8714,Google Pay,24.03
+80655,Mobile Pay,65.17
+4507,Google Pay,53.35
+95364,Credit Card,37.37
+7995,Bank Transfer,11.53
+57566,Credit Card,4.69
+93789,Apple Pay,18.63
+3192,Cash,12.4
+50533,Apple Pay,16.37
+28023,Apple Pay,46.15
+98367,Cash,75.99
+3551,Bank Transfer,18.65
+23158,Cash,96.22
+31590,Cash,27.54
+84998,Credit Card,36.12
+96196,Google Pay,8.35
+34122,Cash,60.44
+85988,Debit Card,78.86
+67950,Credit Card,21.92
+36389,Apple Pay,7.83
+8084,Google Pay,52.12
+77365,Apple Pay,28.67
+79754,Cash,34.0
+18250,Mobile Pay,100.76
+72681,Bank Transfer,2.18
+71595,Apple Pay,8.02
+85571,Credit Card,121.11
+58013,Cash,48.7
+75392,Debit Card,25.47
+79316,Google Pay,36.17
+20264,Mobile Pay,26.01
+75237,Credit Card,40.38
+22329,Mobile Pay,20.16
+36959,Bank Transfer,28.33
+9334,Bank Transfer,17.41
+92569,Cash,74.01
+18214,Google Pay,81.82
+89507,Apple Pay,23.85
+98458,Apple Pay,21.15
+50472,Google Pay,12.16
+69655,Cash,102.91
+56810,Debit Card,40.58
+49418,Google Pay,115.34
+99777,Cash,19.82
+38472,Bank Transfer,114.13
+96038,Debit Card,7.3
+33618,Bank Transfer,35.86
+80998,Cash,47.34
+5308,Credit Card,42.69
+19112,Mobile Pay,94.09
+81397,Debit Card,36.19
+84041,Google Pay,32.29
+71676,Debit Card,65.53
+54732,Credit Card,50.73
+98762,Mobile Pay,50.1
+35650,Cash,19.83
+70420,Cash,77.85
+48674,Credit Card,87.14
+48838,Cash,6.58
+82838,Mobile Pay,37.4
+8070,Apple Pay,92.98
+62703,Mobile Pay,8.0
+20277,Google Pay,40.11
+86595,Bank Transfer,23.95
+78845,Debit Card,20.26
+9958,Cash,11.03
+31287,Cash,28.82
+37180,Bank Transfer,30.9
+67152,Debit Card,37.02
+27615,Cash,25.17
+20242,Google Pay,105.56
+74451,Apple Pay,44.66
+69520,Mobile Pay,109.33
+96307,Cash,20.69
+31211,Debit Card,14.46
+19084,Mobile Pay,12.7
+35057,Bank Transfer,105.47
+77671,Apple Pay,128.92
+47585,Apple Pay,43.53
+87611,Google Pay,16.26
+88292,Cash,18.36
+39123,Credit Card,54.4
+36837,Credit Card,87.17
+47405,Apple Pay,85.92
+34614,Google Pay,27.72
+15160,Mobile Pay,8.09
+16220,Cash,22.62
+35868,Debit Card,40.47
+47561,Google Pay,24.15
+57530,Apple Pay,18.21
+25709,Cash,88.95
+27921,Cash,9.5
+69566,Debit Card,9.0
+5879,Apple Pay,19.67
+19066,Bank Transfer,78.2
+81864,Google Pay,69.85
+60578,Credit Card,7.57
+74188,Cash,27.68
+19134,Apple Pay,8.65
+26495,Bank Transfer,51.05
+95236,Mobile Pay,90.1
+79800,Apple Pay,102.91
+86769,Bank Transfer,22.77
+36476,Bank Transfer,3.02
+6981,Bank Transfer,11.7
+52523,Bank Transfer,40.74
+73095,Cash,60.65
+44543,Apple Pay,26.8
+8423,Mobile Pay,6.64
+29686,Google Pay,107.87
+48614,Bank Transfer,14.42
+20407,Mobile Pay,50.21
+19796,Cash,103.15
+92461,Apple Pay,93.85
+82633,Mobile Pay,25.34
+85685,Google Pay,21.28
+53999,Cash,35.1
+67212,Apple Pay,104.63
+88836,Debit Card,12.35
+95098,Mobile Pay,91.02
+65999,Cash,46.11
+37651,Cash,7.46
+99405,Debit Card,28.7
+22187,Google Pay,20.89
+21319,Credit Card,43.12
+24944,Debit Card,123.66
+48189,Debit Card,6.49
+33702,Google Pay,16.92
+36062,Credit Card,90.78
+86928,Cash,12.28
+96094,Google Pay,18.54
+42183,Bank Transfer,26.38
+16766,Mobile Pay,22.55
+40550,Debit Card,18.11
+71050,Credit Card,7.15
+67985,Debit Card,53.14
+889,Apple Pay,34.86
+71087,Credit Card,16.13
+73495,Apple Pay,12.89
+61498,Google Pay,66.81
+55245,Mobile Pay,33.05
+1088,Credit Card,24.87
+3026,Debit Card,3.04
+65685,Apple Pay,83.79
+34071,Mobile Pay,17.59
+39881,Apple Pay,32.76
+50727,Credit Card,9.05
+9058,Mobile Pay,59.04
+29902,Mobile Pay,84.02
+32843,Cash,59.53
+4925,Debit Card,53.89
+47639,Debit Card,51.45
+15259,Cash,16.25
+28296,Apple Pay,40.78
+32789,Apple Pay,80.14
+2121,Mobile Pay,37.44
+95852,Credit Card,31.33
+12325,Mobile Pay,67.29
+57909,Credit Card,60.92
+32172,Apple Pay,90.84
+42153,Bank Transfer,5.22
+45833,Debit Card,92.75
+56540,Cash,8.21
+76851,Credit Card,30.18
+77564,Debit Card,27.68
+68233,Google Pay,25.9
+52718,Debit Card,42.71
+33366,Debit Card,62.3
+43669,Google Pay,7.77
+97392,Cash,35.93
+24632,Mobile Pay,16.96
+94492,Bank Transfer,45.98
+80525,Mobile Pay,108.17
+49315,Google Pay,19.68
+19595,Apple Pay,21.33
+85144,Bank Transfer,25.69
+82304,Mobile Pay,14.13
+27085,Cash,13.13
+63330,Credit Card,8.09
+29266,Debit Card,4.96
+92640,Credit Card,30.16
+67195,Bank Transfer,19.55
+53332,Debit Card,41.15
+37973,Bank Transfer,12.51
+54028,Credit Card,18.31
+30793,Apple Pay,7.16
+32736,Cash,30.61
+11566,Cash,11.83
+67851,Mobile Pay,68.82
+51601,Mobile Pay,53.93
+55855,Debit Card,89.44
+19007,Credit Card,5.98
+27861,Apple Pay,93.89
+84937,Credit Card,44.6
+63313,Google Pay,51.1
+47521,Cash,68.52
+21859,Credit Card,64.84
+99783,Cash,103.36
+96157,Mobile Pay,99.91
+34554,Bank Transfer,9.24
+96066,Mobile Pay,66.68
+98155,Apple Pay,8.01
+35209,Bank Transfer,13.59
+44354,Google Pay,65.11
+8788,Mobile Pay,53.47
+4028,Debit Card,52.54
+22715,Bank Transfer,84.44
+88028,Cash,10.88
+79308,Debit Card,28.47
+979,Apple Pay,46.43
+33533,Google Pay,63.65
+64812,Credit Card,13.72
+81247,Credit Card,20.31
+44027,Debit Card,57.99
+24178,Apple Pay,22.74
+48025,Cash,33.98
+97368,Credit Card,30.76
+10019,Apple Pay,4.86
+99396,Debit Card,4.55
+60253,Credit Card,28.6
+11029,Debit Card,75.74
+71337,Credit Card,31.02
+44434,Google Pay,98.28
+1607,Bank Transfer,2.74
+52131,Apple Pay,14.79
+2877,Bank Transfer,19.03
+21392,Credit Card,26.78
+45533,Google Pay,30.29
+64706,Cash,7.99
+87517,Debit Card,16.77
+55401,Cash,10.76
+62528,Google Pay,57.61
+50734,Google Pay,32.24
+95962,Mobile Pay,17.13
+85473,Apple Pay,35.3
+89930,Google Pay,39.16
+95838,Mobile Pay,38.58
+74260,Mobile Pay,40.4
+16332,Apple Pay,5.71
+16411,Credit Card,51.34
+80427,Apple Pay,95.73
+86416,Bank Transfer,18.42
+49211,Apple Pay,8.1
+35045,Google Pay,15.41
+11588,Bank Transfer,13.17
+54506,Debit Card,5.5
+85635,Debit Card,33.65
+70902,Cash,27.99
+910,Credit Card,83.61
+84791,Debit Card,55.28
+2155,Bank Transfer,48.38
+56458,Apple Pay,8.52
+68908,Cash,112.93
+99516,Apple Pay,51.41
+73159,Debit Card,48.69
+53684,Debit Card,84.8
+19898,Cash,60.45
+47636,Google Pay,19.08
+54069,Debit Card,49.74
+14359,Google Pay,114.36
+65349,Mobile Pay,62.37
+6550,Apple Pay,39.56
+46502,Cash,32.2
+65800,Debit Card,61.87
+81465,Apple Pay,43.22
+91467,Mobile Pay,31.1
+74373,Credit Card,12.06
+63062,Bank Transfer,29.86
+69013,Bank Transfer,28.59
+91107,Credit Card,26.48
+78752,Debit Card,8.2
+6264,Cash,3.92
+93934,Credit Card,10.87
+41972,Debit Card,32.15
+53323,Bank Transfer,2.93
+76406,Credit Card,8.36
+18554,Bank Transfer,40.3
+18396,Google Pay,97.32
+77267,Credit Card,66.92
+90551,Credit Card,9.59
+6591,Cash,13.74
+6600,Cash,31.99
+16797,Debit Card,41.27
+13325,Credit Card,55.93
+93368,Google Pay,59.14
+22773,Credit Card,120.64
+70614,Debit Card,37.81
+25854,Debit Card,10.97
+13144,Google Pay,61.09
+59147,Google Pay,11.0
+40281,Bank Transfer,7.39
+2440,Credit Card,51.74
+34076,Apple Pay,46.7
+31873,Bank Transfer,33.68
+90722,Mobile Pay,90.55
+4137,Bank Transfer,11.37
+98199,Mobile Pay,9.26
+38391,Mobile Pay,61.99
+61068,Debit Card,28.17
+23638,Apple Pay,40.22
+73516,Google Pay,22.97
+86527,Apple Pay,12.54
+19186,Mobile Pay,34.82
+31931,Apple Pay,23.76
+86263,Google Pay,72.91
+33324,Bank Transfer,34.67
+64387,Apple Pay,15.76
+27088,Google Pay,82.79
+90876,Debit Card,103.11
+54436,Google Pay,26.33
+54628,Credit Card,33.58
+5361,Cash,39.58
+7082,Credit Card,36.43
+85367,Google Pay,114.31
+99103,Bank Transfer,36.01
+91877,Debit Card,32.26
+33104,Apple Pay,23.12
+92089,Cash,66.69
+82756,Cash,24.26
+39775,Debit Card,20.54
+82651,Cash,66.92
+27822,Bank Transfer,32.18
+54456,Mobile Pay,64.3
+2274,Debit Card,52.48
+38756,Debit Card,38.08
+69713,Google Pay,46.45
+66667,Credit Card,41.91
+93584,Credit Card,36.05
+19154,Google Pay,58.17
+13937,Google Pay,3.18
+12854,Cash,33.29
+44401,Google Pay,53.17
+27506,Debit Card,102.47
+43418,Google Pay,38.67
+47256,Cash,5.88
+80585,Credit Card,36.21
+88038,Mobile Pay,4.97
+71541,Debit Card,36.22
+73189,Debit Card,33.91
+97376,Credit Card,45.47
+51597,Mobile Pay,34.79
+6252,Apple Pay,87.94
+28759,Apple Pay,74.85
+38527,Apple Pay,8.74
+19057,Mobile Pay,66.72
+6070,Bank Transfer,10.22
+57973,Bank Transfer,38.72
+85811,Google Pay,23.04
+90757,Bank Transfer,9.04
+75087,Apple Pay,11.43
+20733,Bank Transfer,70.37
+60428,Google Pay,59.31
+32368,Apple Pay,74.48
+97540,Cash,15.98
+95608,Cash,4.26
+70406,Apple Pay,10.74
+72389,Debit Card,41.22
+61736,Google Pay,20.8
+10127,Cash,56.48
+43731,Google Pay,21.86
+8463,Cash,32.71
+78523,Cash,24.24
+92415,Cash,2.66
+66979,Credit Card,31.8
+46394,Bank Transfer,11.77
+95740,Google Pay,6.85
+21909,Apple Pay,84.53
+682,Bank Transfer,94.62
+78804,Bank Transfer,57.11
+46474,Debit Card,62.1
+85897,Cash,112.14
+75458,Bank Transfer,4.08
+78985,Credit Card,70.5
+2378,Mobile Pay,8.39
+52046,Mobile Pay,32.37
+28808,Google Pay,28.8
+72199,Debit Card,110.76
+56395,Cash,38.64
+29053,Bank Transfer,41.44
+38533,Mobile Pay,58.02
+89825,Mobile Pay,79.19
+72567,Google Pay,37.68
+32523,Apple Pay,36.68
+44811,Debit Card,29.57
+48665,Debit Card,10.74
+53057,Mobile Pay,31.78
+19734,Apple Pay,60.75
+33911,Bank Transfer,76.77
+20763,Mobile Pay,36.52
+96302,Apple Pay,46.75
+61983,Cash,88.11
+33002,Credit Card,22.83
+66965,Apple Pay,47.57
+44318,Google Pay,34.57
+6439,Cash,94.32
+81826,Apple Pay,91.14
+33283,Cash,34.26
+28733,Bank Transfer,37.92
+74244,Cash,17.26
+39949,Credit Card,21.72
+76082,Bank Transfer,100.11
+12488,Bank Transfer,18.06
+82688,Credit Card,45.45
+69117,Apple Pay,2.02
+21895,Cash,24.45
+37759,Cash,2.34
+77755,Cash,127.27
+86940,Apple Pay,88.58
+749,Bank Transfer,44.41
+69298,Google Pay,7.56
+70253,Mobile Pay,64.0
+39829,Apple Pay,88.95
+17340,Cash,7.65
+91087,Mobile Pay,66.02
+86370,Debit Card,90.01
+90701,Debit Card,77.07
+94584,Debit Card,41.77
+34557,Apple Pay,21.73
+16297,Google Pay,4.75
+53743,Credit Card,11.21
+56924,Credit Card,19.9
+6598,Bank Transfer,60.37
+91641,Bank Transfer,69.35
+23299,Cash,63.56
+95003,Mobile Pay,72.53
+14710,Google Pay,24.37
+53725,Debit Card,17.35
+53911,Bank Transfer,76.45
+47245,Cash,50.58
+27937,Debit Card,52.77
+79960,Google Pay,29.43
+97698,Apple Pay,11.57
+17641,Credit Card,3.62
+95145,Bank Transfer,40.67
+80560,Credit Card,68.96
+93273,Apple Pay,63.88
+94564,Apple Pay,40.42
+2542,Mobile Pay,114.43
+79317,Credit Card,22.4
+974,Bank Transfer,12.89
+93435,Bank Transfer,50.98
+85095,Apple Pay,56.64
+99605,Debit Card,5.24
+44758,Apple Pay,80.06
+82449,Apple Pay,19.08
+47152,Credit Card,54.44
+79865,Cash,24.08
+24992,Apple Pay,22.8
+7948,Credit Card,21.37
+7214,Debit Card,24.91
+20075,Bank Transfer,57.37
+58507,Credit Card,6.92
+67892,Mobile Pay,41.96
+32175,Google Pay,26.45
+7164,Cash,44.15
+37076,Apple Pay,55.57
+94493,Apple Pay,51.14
+99888,Apple Pay,90.69
+67048,Mobile Pay,59.92
+79460,Debit Card,40.47
+39747,Credit Card,22.38
+27227,Cash,17.22
+79519,Debit Card,81.87
+21172,Mobile Pay,104.16
+83349,Credit Card,75.27
+98759,Apple Pay,38.03
+59287,Apple Pay,49.92
+68899,Cash,27.1
+2485,Credit Card,115.41
+44692,Cash,22.62
+85081,Credit Card,34.24
+50033,Cash,38.4
+98695,Cash,7.07
+12731,Credit Card,108.16
+48515,Apple Pay,24.67
+9722,Debit Card,53.2
+63883,Apple Pay,19.73
+99075,Cash,63.79
+18158,Bank Transfer,19.69
+19125,Mobile Pay,10.3
+84424,Mobile Pay,66.67
+69970,Bank Transfer,66.13
+28989,Bank Transfer,1.72
+94385,Cash,16.05
+42527,Bank Transfer,11.48
+96163,Debit Card,47.56
+30391,Mobile Pay,51.05
+66748,Apple Pay,80.16
+44815,Credit Card,7.3
+54265,Apple Pay,29.84
+67676,Debit Card,50.42
+82432,Mobile Pay,87.22
+86148,Bank Transfer,9.95
+60344,Cash,5.35
+77594,Google Pay,18.09
+21,Bank Transfer,58.14
+63729,Bank Transfer,49.77
+17013,Apple Pay,64.53
+80043,Bank Transfer,13.88
+40001,Apple Pay,8.99
+95805,Bank Transfer,13.85
+60682,Google Pay,72.86
+54668,Apple Pay,23.15
+96802,Google Pay,79.3
+82702,Mobile Pay,24.81
+50397,Mobile Pay,21.23
+19723,Google Pay,115.94
+52280,Google Pay,48.6
+17047,Debit Card,4.56
+31752,Bank Transfer,89.67
+27044,Apple Pay,24.63
+61973,Google Pay,64.26
+36781,Debit Card,26.42
+40940,Apple Pay,24.19
+70390,Cash,11.62
+1108,Apple Pay,27.54
+89390,Credit Card,40.43
+12205,Mobile Pay,37.26
+22384,Credit Card,77.44
+58736,Cash,14.02
+6488,Credit Card,117.5
+8332,Apple Pay,6.26
+42186,Apple Pay,41.91
+84401,Bank Transfer,60.37
+8231,Apple Pay,14.54
+37852,Debit Card,29.19
+83697,Apple Pay,11.22
+61750,Apple Pay,54.4
+8969,Credit Card,76.12
+42039,Apple Pay,29.2
+41254,Apple Pay,21.47
+1556,Cash,41.7
+69292,Bank Transfer,28.3
+10362,Google Pay,113.92
+88485,Cash,26.7
+43023,Apple Pay,57.97
+77894,Mobile Pay,58.77
+35324,Credit Card,103.53
+8894,Bank Transfer,33.43
+23138,Debit Card,14.64
+79552,Apple Pay,49.9
+20786,Google Pay,8.24
+19130,Google Pay,8.13
+93448,Apple Pay,19.47
+5056,Cash,59.1
+34836,Apple Pay,81.15
+36109,Debit Card,49.36
+43547,Google Pay,25.83
+24071,Credit Card,23.2
+42175,Google Pay,27.82
+10208,Bank Transfer,13.04
+47425,Credit Card,35.41
+31974,Cash,24.59
+97001,Debit Card,8.04
+76293,Credit Card,46.64
+82078,Cash,77.62
+70637,Debit Card,23.78
+61799,Credit Card,39.07
+14212,Debit Card,45.83
+59850,Bank Transfer,4.85
+4963,Debit Card,24.81
+92580,Bank Transfer,14.55
+81795,Google Pay,24.66
+92326,Google Pay,4.95
+57700,Apple Pay,55.07
+26281,Bank Transfer,88.26
+22977,Apple Pay,24.51
+10792,Apple Pay,122.25
+62276,Debit Card,62.93
+63718,Credit Card,39.03
+41249,Apple Pay,82.31
+21959,Credit Card,103.15
+83919,Credit Card,28.01
+14993,Cash,16.31
+80732,Bank Transfer,58.04
+88220,Cash,35.97
+60159,Cash,24.61
+84366,Cash,8.35
+93210,Credit Card,6.3
+91311,Bank Transfer,75.04
+82217,Cash,39.3
+14991,Cash,77.6
+67623,Cash,7.62
+27754,Mobile Pay,49.17
+11796,Bank Transfer,40.19
+17447,Bank Transfer,49.37
+78929,Debit Card,34.57
+89753,Apple Pay,13.51
+48276,Debit Card,4.75
+21500,Mobile Pay,16.15
+27000,Apple Pay,12.6
+75935,Credit Card,12.74
+27208,Mobile Pay,25.4
+53194,Google Pay,9.98
+13042,Mobile Pay,24.23
+96699,Credit Card,87.0
+96036,Bank Transfer,52.01
+82986,Credit Card,28.44
+50047,Debit Card,5.46
+26263,Cash,29.38
+9285,Apple Pay,29.11
+87601,Credit Card,64.01
+26945,Mobile Pay,30.89
+33690,Mobile Pay,22.86
+59495,Apple Pay,53.34
+51237,Debit Card,35.24
+51617,Bank Transfer,7.5
+39858,Google Pay,3.59
+36908,Debit Card,28.26
+67575,Apple Pay,12.34
+66668,Debit Card,6.1
+67404,Credit Card,22.98
+47613,Cash,68.36
+32943,Cash,68.3
+8728,Bank Transfer,5.09
+69057,Cash,70.11
+60041,Google Pay,42.96
+86812,Bank Transfer,7.89
+29241,Google Pay,32.63
+55879,Google Pay,9.02
+86486,Google Pay,34.25
+41190,Credit Card,37.11
+17100,Cash,29.58
+23120,Cash,75.09
+34188,Bank Transfer,36.2
+77591,Debit Card,68.79
+43263,Apple Pay,35.86
+96310,Debit Card,89.21
+73597,Google Pay,44.75
+4020,Bank Transfer,20.68
+67367,Credit Card,46.38
+39979,Bank Transfer,14.25
+94270,Credit Card,17.26
+9492,Credit Card,103.29
+27207,Cash,79.54
+40287,Mobile Pay,14.8
+71460,Cash,73.61
+11919,Cash,38.57
+98434,Google Pay,50.58
+56570,Credit Card,61.43
+21219,Apple Pay,36.12
+57901,Mobile Pay,1.81
+35968,Apple Pay,83.72
+43935,Credit Card,69.98
+93496,Debit Card,36.29
+39028,Credit Card,17.39
+17784,Cash,11.65
+62185,Credit Card,11.92
+25337,Mobile Pay,51.83
+84605,Google Pay,12.26
+69394,Debit Card,14.67
+56938,Mobile Pay,52.26
+48652,Credit Card,68.75
+32223,Bank Transfer,34.22
+27839,Google Pay,22.84
+61387,Bank Transfer,79.56
+37831,Apple Pay,28.74
+38725,Apple Pay,8.49
+38553,Bank Transfer,31.0
+9471,Apple Pay,22.52
+45109,Google Pay,31.87
+78892,Mobile Pay,87.33
+97940,Debit Card,7.85
+10895,Apple Pay,5.51
+89711,Bank Transfer,33.93
+99871,Bank Transfer,12.79
+39391,Bank Transfer,27.99
+85972,Cash,43.5
+2645,Apple Pay,51.05
+54523,Mobile Pay,71.9
+88835,Bank Transfer,30.32
+29716,Google Pay,65.26
+47595,Apple Pay,12.89
+95131,Credit Card,33.57
+12051,Mobile Pay,6.88
+78533,Bank Transfer,4.71
+84183,Credit Card,4.19
+34939,Credit Card,5.29
+65178,Bank Transfer,82.45
+85215,Mobile Pay,75.64
+54079,Debit Card,10.9
+84324,Credit Card,58.65
+36852,Google Pay,10.72
+72549,Google Pay,92.56
+21889,Mobile Pay,11.39
+61170,Mobile Pay,78.69
+17666,Cash,11.43
+68646,Apple Pay,16.67
+62465,Credit Card,17.84
+12944,Apple Pay,43.94
+38710,Apple Pay,7.95
+10484,Credit Card,64.82
+75376,Mobile Pay,45.9
+15409,Mobile Pay,53.37
+9080,Bank Transfer,9.12
+72279,Cash,35.63
+650,Cash,85.69
+31517,Cash,17.69
+36945,Google Pay,13.1
+49321,Credit Card,77.44
+91362,Debit Card,33.96
+36624,Mobile Pay,53.96
+15819,Google Pay,30.32
+68514,Apple Pay,4.55
+4626,Cash,60.77
+36798,Mobile Pay,38.56
+85990,Google Pay,53.06
+54376,Credit Card,102.15
+82094,Apple Pay,8.86
+74630,Cash,5.48
+6455,Mobile Pay,16.87
+38301,Google Pay,54.96
+63193,Credit Card,18.47
+49916,Credit Card,7.58
+901,Credit Card,25.16
+30500,Credit Card,25.55
+62018,Google Pay,20.59
+7243,Credit Card,31.39
+34591,Bank Transfer,50.04
+67043,Debit Card,36.75
+89135,Mobile Pay,20.62
+55255,Credit Card,85.89
+9541,Mobile Pay,12.95
+31710,Cash,40.59
+95372,Cash,67.9
+42504,Mobile Pay,9.52
+22493,Cash,1.84
+15028,Debit Card,75.17
+51084,Cash,33.07
+92341,Apple Pay,11.79
+74656,Apple Pay,19.35
+5698,Cash,65.24
+13750,Google Pay,83.56
+19083,Google Pay,10.88
+91237,Apple Pay,19.23
+64384,Bank Transfer,101.28
+5733,Mobile Pay,8.91
+46681,Bank Transfer,80.9
+68499,Apple Pay,43.88
+86757,Bank Transfer,43.65
+96100,Mobile Pay,13.96
+28654,Google Pay,53.76
+65883,Credit Card,11.9
+811,Google Pay,103.86
+51483,Debit Card,22.95
+54301,Apple Pay,20.55
+96256,Debit Card,8.18
+98750,Cash,9.33
+61914,Google Pay,55.34
+59016,Cash,106.22
+67029,Apple Pay,46.06
+50282,Apple Pay,63.49
+56563,Debit Card,21.07
+91517,Bank Transfer,19.57
+26865,Bank Transfer,62.09
+84348,Google Pay,29.09
+95094,Cash,7.03
+69217,Mobile Pay,87.37
+42172,Debit Card,24.49
+31490,Mobile Pay,27.59
+82941,Google Pay,28.58
+62324,Apple Pay,3.26
+549,Credit Card,54.07
+12456,Bank Transfer,7.71
+66754,Debit Card,46.06
+20265,Mobile Pay,113.97
+59336,Apple Pay,60.86
+72783,Credit Card,33.85
+26765,Debit Card,14.65
+11838,Cash,31.89
+55714,Apple Pay,23.81
+33041,Mobile Pay,7.65
+49158,Mobile Pay,8.47
+60998,Google Pay,10.88
+74126,Debit Card,109.37
+80226,Apple Pay,7.75
+50529,Bank Transfer,71.64
+81196,Credit Card,6.5
+26731,Google Pay,52.89
+17422,Apple Pay,10.87
+18641,Bank Transfer,44.76
+39649,Cash,42.07
+4956,Cash,43.64
+84566,Mobile Pay,20.66
+27349,Bank Transfer,20.24
+90235,Google Pay,11.47
+46781,Credit Card,34.92
+67842,Mobile Pay,11.8
+49851,Google Pay,118.03
+56926,Apple Pay,19.49
+31347,Bank Transfer,71.02
+43475,Google Pay,26.34
+68194,Mobile Pay,20.65
+38049,Credit Card,20.23
+30438,Bank Transfer,113.99
+19163,Mobile Pay,70.88
+48917,Credit Card,47.43
+27124,Cash,85.18
+87455,Apple Pay,46.67
+82327,Bank Transfer,36.09
+91345,Credit Card,50.29
+43546,Google Pay,55.32
+24257,Apple Pay,94.95
+82174,Mobile Pay,17.37
+13996,Credit Card,12.27
+39440,Bank Transfer,5.66
+8104,Credit Card,51.2
+16410,Cash,7.7
+61252,Credit Card,103.67
+48749,Apple Pay,76.14
+90414,Mobile Pay,18.03
+12001,Debit Card,56.83
+18612,Google Pay,31.61
+17555,Credit Card,23.79
+99125,Debit Card,57.32
+56042,Mobile Pay,1.83
+23263,Mobile Pay,10.54
+75320,Bank Transfer,92.86
+30529,Bank Transfer,17.63
+48491,Google Pay,64.03
+62228,Credit Card,68.78
+94935,Mobile Pay,8.03
+72863,Cash,124.61
+71993,Bank Transfer,30.88
+74286,Credit Card,9.36
+13447,Credit Card,7.4
+4099,Cash,8.89
+70848,Mobile Pay,65.5
+90898,Cash,6.6
+13834,Mobile Pay,22.2
+91989,Mobile Pay,3.07
+1513,Credit Card,17.93
+90431,Debit Card,22.08
+58270,Debit Card,53.71
+89535,Credit Card,3.96
+16428,Mobile Pay,11.49
+63137,Apple Pay,53.54
+59400,Credit Card,2.7
+40796,Debit Card,26.79
+13092,Cash,29.73
+35540,Apple Pay,18.39
+40376,Debit Card,25.14
+72399,Credit Card,16.1
+50381,Bank Transfer,5.6
+8022,Debit Card,24.84
+33978,Bank Transfer,90.6
+83595,Mobile Pay,25.42
+85251,Google Pay,69.13
+93481,Bank Transfer,89.26
+8586,Credit Card,40.89
+50145,Credit Card,46.51
+76375,Credit Card,28.58
+48569,Bank Transfer,66.29
+24698,Bank Transfer,32.05
+117,Bank Transfer,39.09
+71299,Apple Pay,85.3
+12726,Cash,38.45
+57106,Bank Transfer,23.01
+22526,Credit Card,77.12
+52295,Cash,34.23
+84076,Google Pay,7.65
+26,Mobile Pay,34.42
+46600,Cash,69.24
+6793,Credit Card,20.68
+37903,Credit Card,128.31
+96305,Bank Transfer,16.95
+6699,Credit Card,85.09
+16176,Google Pay,54.86
+73185,Apple Pay,9.14
+89859,Apple Pay,67.42
+98347,Google Pay,31.06
+27515,Debit Card,13.92
+39834,Credit Card,64.8
+70134,Bank Transfer,58.38
+17295,Cash,21.85
+8724,Bank Transfer,16.45
+87571,Apple Pay,33.42
+83488,Cash,9.18
+41585,Debit Card,85.01
+49450,Apple Pay,10.1
+1701,Mobile Pay,17.83
+25538,Credit Card,29.18
+94916,Bank Transfer,35.24
+41991,Credit Card,48.78
+32086,Apple Pay,59.16
+17627,Debit Card,10.12
+49293,Cash,29.95
+99723,Cash,11.35
+67179,Apple Pay,20.86
+98350,Debit Card,21.52
+89269,Google Pay,47.45
+60813,Mobile Pay,18.21
+69100,Credit Card,58.44
+38684,Debit Card,15.07
+30368,Cash,39.32
+69516,Cash,25.99
+51048,Mobile Pay,59.06
+48476,Apple Pay,60.0
+99157,Bank Transfer,22.67
+59776,Credit Card,11.79
+45126,Apple Pay,10.32
+81349,Mobile Pay,43.65
+62209,Apple Pay,6.04
+12780,Debit Card,33.87
+62667,Debit Card,30.29
+97534,Cash,51.63
+69303,Debit Card,6.83
+85891,Google Pay,6.32
+84847,Mobile Pay,35.09
+34417,Debit Card,17.06
+58796,Credit Card,7.39
+25964,Cash,66.26
+99454,Debit Card,15.91
+99064,Cash,31.13
+17724,Bank Transfer,53.24
+79866,Bank Transfer,29.24
+79869,Credit Card,26.0
+84874,Google Pay,23.11
+42316,Credit Card,12.58
+14573,Credit Card,9.31
+8705,Apple Pay,66.7
+20560,Apple Pay,6.92
+42994,Bank Transfer,78.17
+13573,Cash,29.55
+95655,Apple Pay,36.6
+24468,Apple Pay,42.3
+58385,Credit Card,50.35
+12893,Credit Card,20.43
+4320,Debit Card,10.64
+7319,Apple Pay,13.16
+40251,Debit Card,101.99
+23160,Bank Transfer,76.14
+53977,Credit Card,29.39
+93410,Debit Card,33.57
+40876,Mobile Pay,45.79
+3025,Google Pay,19.71
+10937,Credit Card,47.66
+53903,Google Pay,20.02
+21183,Cash,35.77
+34567,Credit Card,16.3
+49133,Credit Card,20.27
+44372,Cash,7.01
+73007,Google Pay,55.88
+73799,Debit Card,22.27
+42617,Debit Card,4.27
+23806,Apple Pay,32.9
+46120,Mobile Pay,114.2
+29846,Mobile Pay,72.3
+32247,Apple Pay,29.48
+66712,Debit Card,29.19
+30846,Apple Pay,40.68
+9944,Apple Pay,74.19
+32531,Google Pay,4.87
+60146,Google Pay,10.8
+92842,Apple Pay,78.13
+51232,Mobile Pay,8.9
+16772,Credit Card,15.66
+72610,Apple Pay,30.34
+72400,Debit Card,37.82
+53525,Cash,103.88
+47628,Bank Transfer,101.58
+66680,Mobile Pay,53.82
+15799,Google Pay,24.6
+7713,Mobile Pay,8.01
+10574,Mobile Pay,9.47
+3556,Apple Pay,98.38
+80924,Credit Card,9.37
+87848,Apple Pay,44.39
+12528,Bank Transfer,27.63
+9513,Credit Card,88.53
+40610,Debit Card,50.9
+7332,Debit Card,54.25
+81431,Mobile Pay,22.24
+5372,Credit Card,8.91
+43879,Cash,34.74
+31471,Google Pay,23.77
+87558,Credit Card,36.57
+38241,Apple Pay,67.61
+1886,Google Pay,47.03
+81923,Google Pay,4.53
+77313,Credit Card,72.93
+41403,Google Pay,10.77
+69277,Debit Card,6.41
+48139,Bank Transfer,12.23
+10514,Apple Pay,18.09
+82928,Cash,24.01
+90483,Mobile Pay,26.43
+56781,Bank Transfer,110.88
+52952,Mobile Pay,8.2
+56449,Bank Transfer,74.79
+25863,Debit Card,7.09
+78666,Mobile Pay,21.78
+24193,Credit Card,5.95
+92314,Cash,46.92
+52623,Credit Card,50.21
+9589,Apple Pay,3.67
+16432,Bank Transfer,46.12
+89169,Mobile Pay,77.58
+94227,Credit Card,42.9
+55468,Bank Transfer,41.72
+25747,Bank Transfer,115.82
+38397,Debit Card,7.87
+67403,Apple Pay,16.94
+41138,Apple Pay,93.37
+83593,Mobile Pay,49.53
+11852,Credit Card,66.78
+82983,Cash,3.03
+62239,Debit Card,29.17
+39014,Apple Pay,20.63
+45164,Mobile Pay,7.24
+11093,Mobile Pay,3.56
+3721,Google Pay,11.05
+50580,Mobile Pay,75.98
+87593,Cash,101.26
+56343,Bank Transfer,70.81
+50088,Credit Card,25.88
+76169,Debit Card,14.14
+45369,Apple Pay,11.38
+22512,Google Pay,76.71
+91210,Debit Card,93.68
+41099,Bank Transfer,54.17
+77621,Mobile Pay,55.67
+46501,Apple Pay,33.82
+7375,Mobile Pay,25.58
+49097,Google Pay,63.19
+7105,Bank Transfer,21.12
+7796,Apple Pay,32.39
+75101,Cash,24.9
+12783,Google Pay,13.7
+1446,Google Pay,35.27
+19918,Mobile Pay,31.03
+48403,Credit Card,67.02
+86418,Debit Card,14.99
+59824,Mobile Pay,85.26
+98497,Debit Card,28.46
+2142,Bank Transfer,87.28
+61296,Apple Pay,15.52
+29550,Bank Transfer,71.47
+55474,Debit Card,9.07
+92259,Bank Transfer,14.16
+35424,Mobile Pay,72.77
+78342,Credit Card,109.22
+69140,Google Pay,123.89
+63523,Cash,16.28
+2701,Mobile Pay,13.05
+66552,Apple Pay,50.83
+3567,Cash,29.02
+59294,Bank Transfer,4.62
+52233,Apple Pay,56.49
+7859,Apple Pay,33.0
+50479,Credit Card,5.44
+68293,Google Pay,50.07
+39376,Mobile Pay,96.32
+97076,Credit Card,20.17
+78899,Bank Transfer,5.13
+10355,Mobile Pay,19.63
+30341,Cash,9.58
+16681,Cash,91.17
+48961,Google Pay,47.45
+62439,Cash,49.23
+15878,Bank Transfer,21.44
+96896,Credit Card,28.68
+18047,Cash,26.17
+2216,Mobile Pay,4.39
+57664,Bank Transfer,50.99
+84013,Cash,5.35
+77139,Credit Card,5.26
+95841,Mobile Pay,67.92
+36712,Apple Pay,10.1
+93317,Mobile Pay,28.87
+19395,Cash,102.61
+42143,Mobile Pay,14.18
+99385,Bank Transfer,22.74
+93859,Mobile Pay,7.71
+87298,Bank Transfer,55.3
+74814,Mobile Pay,77.48
+58483,Debit Card,20.74
+93854,Bank Transfer,60.9
+93099,Credit Card,34.7
+45326,Cash,28.45
+25137,Debit Card,34.01
+75582,Credit Card,22.55
+12240,Apple Pay,23.65
+99734,Apple Pay,101.36
+69695,Apple Pay,22.33
+33053,Debit Card,25.47
+42704,Bank Transfer,9.87
+26708,Mobile Pay,10.84
+27374,Apple Pay,24.33
+83596,Bank Transfer,44.89
+14655,Debit Card,122.3
+90162,Mobile Pay,58.24
+58209,Google Pay,13.36
+88890,Credit Card,15.11
+6255,Credit Card,46.1
+31165,Debit Card,3.45
+5486,Google Pay,28.64
+33521,Debit Card,48.64
+46462,Debit Card,50.56
+53091,Bank Transfer,30.41
+19733,Mobile Pay,9.06
+45119,Cash,27.04
+10889,Cash,77.89
+5878,Cash,119.46
+45784,Google Pay,16.65
+83724,Mobile Pay,21.35
+10607,Mobile Pay,45.21
+64041,Bank Transfer,16.9
+73704,Mobile Pay,50.38
+58329,Debit Card,8.77
+94349,Apple Pay,95.42
+50364,Cash,57.78
+19962,Debit Card,14.8
+16940,Bank Transfer,46.65
+14441,Debit Card,15.27
+9466,Credit Card,55.54
+45818,Apple Pay,22.03
+78263,Debit Card,103.66
+58818,Apple Pay,12.5
+33131,Google Pay,75.95
+65613,Apple Pay,25.26
+56203,Cash,22.65
+72602,Debit Card,6.99
+44230,Google Pay,128.66
+44616,Debit Card,2.96
+5379,Mobile Pay,6.01
+7320,Debit Card,25.34
+87828,Google Pay,27.57
+6820,Google Pay,6.15
+81447,Mobile Pay,13.73
+19593,Bank Transfer,33.48
+88914,Debit Card,34.67
+34777,Bank Transfer,20.1
+93680,Apple Pay,60.92
+69447,Mobile Pay,7.2
+25908,Apple Pay,11.67
+81292,Debit Card,6.16
+46295,Cash,48.32
+75073,Apple Pay,39.28
+10768,Credit Card,56.45
+97726,Debit Card,17.7
+91276,Bank Transfer,9.46
+62931,Debit Card,127.12
+8476,Bank Transfer,45.08
+72452,Credit Card,103.32
+84536,Apple Pay,42.46
+28637,Credit Card,73.82
+58643,Bank Transfer,74.71
+31568,Bank Transfer,24.48
+31385,Apple Pay,34.54
+64750,Mobile Pay,29.4
+10097,Apple Pay,69.63
+95779,Cash,26.68
+35708,Cash,11.86
+66753,Cash,20.48
+37185,Apple Pay,8.71
+5990,Cash,13.07
+96380,Credit Card,77.9
+45337,Debit Card,66.11
+36340,Google Pay,24.92
+62585,Debit Card,91.71
+6103,Debit Card,29.33
+99011,Debit Card,28.62
+88014,Debit Card,34.8
+10589,Credit Card,28.57
+88699,Credit Card,52.29
+20458,Google Pay,5.73
+47582,Mobile Pay,119.33
+26764,Debit Card,68.97
+56002,Apple Pay,2.63
+18132,Credit Card,12.31
+58223,Bank Transfer,61.33
+30097,Cash,18.35
+16865,Debit Card,20.15
+62652,Cash,2.23
+43055,Apple Pay,79.58
+7174,Debit Card,73.53
+1944,Mobile Pay,16.78
+32526,Google Pay,50.12
+12010,Debit Card,26.89
+30352,Mobile Pay,21.55
+48154,Credit Card,14.51
+82657,Mobile Pay,53.18
+796,Google Pay,46.28
+85636,Apple Pay,42.68
+37724,Mobile Pay,39.92
+59675,Apple Pay,27.66
+85915,Cash,8.24
+19004,Google Pay,16.93
+31150,Debit Card,17.54
+95714,Cash,19.13
+14395,Google Pay,6.61
+96906,Cash,15.29
+89598,Apple Pay,45.71
+92523,Credit Card,72.78
+16951,Bank Transfer,45.65
+85338,Debit Card,65.59
+92711,Mobile Pay,24.73
+48212,Apple Pay,33.92
+72580,Debit Card,11.52
+91895,Apple Pay,61.44
+4943,Google Pay,58.27
+32525,Apple Pay,113.1
+4007,Debit Card,3.71
+12226,Apple Pay,99.61
+85073,Apple Pay,29.05
+8351,Cash,2.58
+16246,Debit Card,62.84
+7078,Google Pay,17.61
+69162,Credit Card,5.44
+34725,Cash,38.07
+63871,Apple Pay,2.81
+53321,Debit Card,10.71
+38896,Apple Pay,6.04
+65780,Google Pay,17.08
+81567,Google Pay,4.97
+86635,Credit Card,12.49
+6540,Apple Pay,43.35
+1719,Mobile Pay,103.2
+93690,Debit Card,51.88
+52498,Mobile Pay,20.78
+68850,Credit Card,21.07
+73692,Cash,33.08
+90344,Mobile Pay,6.21
+73147,Credit Card,57.35
+25586,Mobile Pay,8.0
+5015,Debit Card,23.8
+83450,Google Pay,62.66
+36177,Cash,27.27
+93475,Google Pay,85.84
+91742,Debit Card,9.18
+35203,Cash,99.06
+34111,Cash,49.75
+36354,Bank Transfer,26.68
+26675,Debit Card,27.57
+758,Apple Pay,12.83
+78145,Credit Card,44.74
+58301,Apple Pay,8.74
+65533,Debit Card,11.62
+31767,Bank Transfer,17.07
+63974,Bank Transfer,26.62
+51178,Google Pay,84.18
+84702,Apple Pay,25.27
+31677,Credit Card,14.17
+3185,Google Pay,31.4
+40199,Debit Card,24.25
+77115,Apple Pay,68.27
+76341,Apple Pay,5.78
+21786,Google Pay,24.94
+75354,Bank Transfer,17.82
+70004,Credit Card,16.8
+49738,Credit Card,3.13
+36656,Mobile Pay,10.83
+30821,Credit Card,38.68
+82587,Credit Card,43.96
+36635,Apple Pay,20.5
+2800,Mobile Pay,70.59
+12174,Debit Card,21.26
+18020,Google Pay,13.06
+510,Cash,23.66
+99514,Credit Card,25.38
+37253,Credit Card,34.28
+38960,Credit Card,9.05
+94675,Google Pay,71.69
+997,Mobile Pay,9.15
+48533,Credit Card,23.3
+20858,Mobile Pay,4.54
+92958,Credit Card,19.81
+85877,Mobile Pay,31.25
+37593,Bank Transfer,8.41
+96480,Cash,24.1
+3298,Google Pay,94.42
+27751,Debit Card,12.66
+98950,Bank Transfer,48.03
+87325,Mobile Pay,11.71
+56262,Mobile Pay,21.6
+21321,Bank Transfer,95.83
+16123,Credit Card,39.6
+10528,Bank Transfer,90.84
+47091,Credit Card,27.67
+2785,Apple Pay,21.24
+25952,Cash,14.85
+34073,Google Pay,46.08
+5673,Cash,24.01
+43449,Bank Transfer,10.9
+97308,Apple Pay,26.63
+29306,Credit Card,5.22
+32030,Cash,24.96
+34086,Credit Card,46.46
+1137,Debit Card,49.31
+59096,Bank Transfer,12.01
+30142,Mobile Pay,50.74
+42873,Credit Card,27.73
+41626,Bank Transfer,6.72
+9970,Apple Pay,19.44
+4705,Mobile Pay,61.12
+30945,Bank Transfer,53.12
+51190,Credit Card,56.21
+96303,Credit Card,72.54
+42068,Google Pay,18.08
+42236,Credit Card,1.74
+50692,Google Pay,37.56
+51993,Credit Card,8.43
+60404,Google Pay,100.4
+37769,Cash,3.81
+5006,Debit Card,11.18
+52913,Apple Pay,21.19
+12567,Apple Pay,14.17
+49496,Credit Card,9.28
+90778,Apple Pay,7.7
+82970,Debit Card,55.67
+63564,Cash,10.3
+87138,Google Pay,34.31
+97741,Mobile Pay,11.03
+63677,Cash,56.73
+35660,Apple Pay,7.81
+60281,Debit Card,51.86
+52411,Mobile Pay,89.74
+36437,Debit Card,66.14
+48585,Apple Pay,50.46
+13863,Mobile Pay,22.01
+42676,Google Pay,10.23
+93918,Credit Card,8.2
+63332,Cash,37.76
+27100,Cash,26.78
+3426,Debit Card,37.44
+59264,Mobile Pay,43.52
+2884,Google Pay,39.36
+53632,Bank Transfer,53.58
+74518,Mobile Pay,112.94
+41558,Apple Pay,61.37
+25365,Apple Pay,12.77
+41267,Bank Transfer,27.37
+66862,Cash,14.67
+80408,Google Pay,4.62
+7278,Bank Transfer,62.01
+52440,Cash,28.78
+63444,Apple Pay,12.45
+87212,Cash,87.63
+11765,Google Pay,22.61
+59399,Google Pay,57.47
+6957,Bank Transfer,5.86
+86363,Google Pay,8.68
+21978,Cash,89.53
+58481,Bank Transfer,51.66
+67373,Bank Transfer,81.78
+86523,Mobile Pay,37.08
+83601,Bank Transfer,71.31
+81515,Google Pay,80.35
+35859,Credit Card,27.38
+66664,Apple Pay,35.87
+9398,Bank Transfer,16.29
+99574,Google Pay,20.88
+74117,Mobile Pay,2.6
+68328,Cash,74.72
+96617,Google Pay,5.13
+96636,Google Pay,56.86
+58119,Credit Card,8.53
+7877,Mobile Pay,7.42
+78784,Google Pay,75.73
+95358,Credit Card,12.44
+8623,Cash,28.93
+51780,Cash,14.36
+10189,Apple Pay,39.08
+779,Mobile Pay,41.18
+86106,Credit Card,12.04
+59880,Credit Card,61.82
+83994,Cash,15.07
+45310,Mobile Pay,43.35
+38477,Apple Pay,11.25
+72407,Mobile Pay,15.93
+74025,Mobile Pay,33.5
+2384,Apple Pay,13.36
+10133,Cash,24.39
+23556,Apple Pay,34.44
+29757,Apple Pay,56.39
+41808,Bank Transfer,42.51
+29581,Cash,18.5
+99418,Bank Transfer,34.48
+2024,Apple Pay,63.07
+6951,Cash,121.53
+97715,Mobile Pay,48.0
+39478,Credit Card,48.37
+15240,Cash,19.82
+46348,Google Pay,50.93
+28854,Google Pay,107.81
+76686,Apple Pay,67.89
+13739,Apple Pay,21.95
+74419,Credit Card,48.69
+64104,Credit Card,29.23
+31383,Cash,3.11
+69913,Google Pay,6.35
+8158,Debit Card,8.86
+9892,Bank Transfer,34.87
+82206,Bank Transfer,47.35
+76616,Debit Card,57.35
+95177,Debit Card,66.53
+47001,Bank Transfer,6.92
+22519,Bank Transfer,80.32
+23606,Apple Pay,4.7
+50247,Google Pay,105.03
+21784,Apple Pay,96.09
+90892,Apple Pay,84.0
+18118,Credit Card,4.13
+30629,Cash,85.11
+28684,Cash,9.06
+61523,Credit Card,46.16
+79146,Debit Card,73.86
+7934,Apple Pay,58.3
+20800,Apple Pay,115.49
+84795,Credit Card,83.7
+49626,Apple Pay,64.16
+56270,Bank Transfer,48.5
+56030,Credit Card,50.88
+83377,Mobile Pay,63.77
+63717,Cash,36.88
+32579,Credit Card,30.0
+86021,Bank Transfer,6.53
+2334,Bank Transfer,54.71
+89946,Debit Card,70.0
+35570,Credit Card,6.24
+42370,Google Pay,7.15
+44658,Google Pay,97.05
+72846,Debit Card,5.17
+62846,Google Pay,51.89
+86265,Debit Card,72.3
+28915,Debit Card,51.07
+9416,Apple Pay,11.88
+10054,Debit Card,96.86
+98028,Cash,22.59
+18342,Credit Card,91.34
+4155,Bank Transfer,104.97
+44734,Mobile Pay,8.21
+37226,Credit Card,30.64
+8306,Bank Transfer,59.46
+28774,Credit Card,44.8
+21955,Bank Transfer,19.51
+10582,Google Pay,33.85
+34231,Apple Pay,52.35
+61533,Bank Transfer,14.08
+33525,Apple Pay,25.16
+63838,Debit Card,47.1
+41748,Mobile Pay,10.83
+92138,Debit Card,11.23
+81040,Cash,25.94
+72632,Google Pay,16.09
+88872,Cash,22.81
+99376,Mobile Pay,29.6
+45304,Bank Transfer,97.69
+1505,Credit Card,74.25
+87807,Apple Pay,69.75
+38649,Bank Transfer,26.76
+16258,Cash,32.4
+1883,Mobile Pay,12.87
+9608,Credit Card,20.53
+48270,Mobile Pay,11.74
+36191,Bank Transfer,92.1
+32709,Google Pay,59.97
+26896,Cash,9.26
+50816,Debit Card,54.39
+74064,Cash,49.96
+89089,Cash,35.01
+51684,Mobile Pay,11.27
+29267,Cash,21.28
+19250,Credit Card,98.1
+86641,Apple Pay,12.14
+21435,Debit Card,6.93
+73619,Debit Card,37.2
+80884,Mobile Pay,51.39
+32678,Bank Transfer,4.15
+80378,Credit Card,39.18
+92369,Apple Pay,33.51
+91183,Apple Pay,51.7
+30762,Credit Card,32.59
+21587,Cash,74.59
+12441,Google Pay,86.31
+35679,Mobile Pay,44.35
+97444,Cash,13.66
+17649,Debit Card,62.14
+19190,Cash,1.91
+33424,Credit Card,16.81
+44285,Bank Transfer,42.35
+5938,Debit Card,115.51
+51589,Credit Card,13.45
+40980,Mobile Pay,70.61
+82906,Bank Transfer,55.96

@@ -1,0 +1,101 @@
+supplier_ID,manufact_Brand,contactInfo,supply_Type,Price
+SUP5736004,BeveragePro Systems,carol73@beverageprosystems.com,SnackMaster X,2746.65
+SUP7616565,MegaVend Systems,xrichardson@megavendsystems.com,VM-200,2644.08
+SUP6637629,FastFood Automate,jacksonjennifer@fastfoodautomate.com,VM-200,2521.43
+SUP8132605,BeveragePro Systems,bennettstephanie@beverageprosystems.com,BeveragePro,4135.19
+SUP6972932,AutoBrew Ltd.,savannah72@autobrewltd.com,VM-300,3498.41
+SUP3221589,VendCore Solutions,jparker@vendcoresolutions.com,QuickCan 2000,1895.42
+SUP4093482,SnackMaster Plus,ryan24@snackmasterplus.com,BeveragePro,3315.87
+SUP9886627,FastFood Automate,thomasraymond@fastfoodautomate.com,VM-200,3435.98
+SUP1462149,CoolDrink Vends,kevincalderon@cooldrinkvends.com,QuickCan 2000,4936.89
+SUP6986396,VendGenius Pro,thomas97@vendgeniuspro.com,VM-100,2946.26
+SUP3122300,SnackMaster Pro,wnichols@snackmasterpro.com,QuickCan 2000,3741.32
+SUP4286642,SnackMaster Plus,benjamingonzalez@snackmasterplus.com,QuickCan 2000,4605.3
+SUP5261049,SnackSync Co.,tiffanynelson@snacksyncco.com,VM-200,2859.25
+SUP5288614,VendGenius Pro,emma17@vendgeniuspro.com,VM-100,1635.83
+SUP4144199,MegaSnack Systems,karen78@megasnacksystems.com,QuickCan 2000,4176.46
+SUP9502162,SnackWave Innovations,brittanyhall@snackwaveinnovations.com,VM-100,3471.89
+SUP6065616,EcoVend Tech,griffinmegan@ecovendtech.com,BeveragePro,2409.31
+SUP2563269,EcoVend Tech,aanderson@ecovendtech.com,VM-300,4494.42
+SUP9800831,SnackWave Innovations,kennedynicholas@snackwaveinnovations.com,VM-200,4554.95
+SUP5526921,SnackWave Innovations,lorimiller@snackwaveinnovations.com,SnackMaster X,3360.02
+SUP2370669,SnackMaster Plus,christine25@snackmasterplus.com,BeveragePro,2962.0
+SUP9389147,VendGenius Pro,ppierce@vendgeniuspro.com,SnackMaster X,4085.42
+SUP9828589,MegaVend Systems,toddmiller@megavendsystems.com,VM-100,3228.31
+SUP5931275,VendGenius Pro,johngonzalez@vendgeniuspro.com,VM-100,1781.38
+SUP9285290,FreshBite Vends,cameronrichard@freshbitevends.com,VM-200,2171.18
+SUP3667867,VendCore Solutions,williamselizabeth@vendcoresolutions.com,QuickCan 2000,4297.53
+SUP9790189,QuickBite Machines,meadowsbarbara@quickbitemachines.com,VM-200,2355.81
+SUP4950199,AutoBrew Ltd.,pmcdonald@autobrewltd.com,VM-200,3003.54
+SUP3998802,CoolCan Machines,glovermelanie@coolcanmachines.com,VM-100,1842.56
+SUP8491884,MegaSnack Systems,katrinapace@megasnacksystems.com,BeveragePro,3403.91
+SUP8585810,VendGenius Pro,qwebb@vendgeniuspro.com,VM-300,3105.54
+SUP9777966,QuickSnack Co.,yle@quicksnackco.com,QuickCan 2000,2689.42
+SUP5843493,QuickSnack Co.,crystal32@quicksnackco.com,BeveragePro,4442.17
+SUP2048628,MegaVend Systems,lauriewood@megavendsystems.com,VM-200,4214.41
+SUP9138812,AutoBrew Ltd.,kelsey26@autobrewltd.com,VM-100,2639.43
+SUP1537422,MegaSnack Systems,santanamichael@megasnacksystems.com,SnackMaster X,3381.57
+SUP3519225,CoolDrink Vends,brownvictor@cooldrinkvends.com,VM-100,4373.88
+SUP1527976,BrewMaster Vends,ericphelps@brewmastervends.com,BeveragePro,2801.19
+SUP2599834,SnackMaster Plus,alexiswatkins@snackmasterplus.com,VM-300,3429.59
+SUP4448750,FreshBite Vends,foxjoshua@freshbitevends.com,VM-300,4500.9
+SUP3866768,FastFood Automate,shermanjennifer@fastfoodautomate.com,VM-100,2118.81
+SUP5419294,AutoBrew Ltd.,amy44@autobrewltd.com,SnackMaster X,3586.03
+SUP8124722,VendCore Solutions,iwong@vendcoresolutions.com,VM-100,4078.0
+SUP9615356,VendCore Solutions,fconway@vendcoresolutions.com,BeveragePro,4300.97
+SUP6137006,MegaVend Systems,matthew21@megavendsystems.com,VM-200,1677.47
+SUP8411738,FastFood Automate,ryan10@fastfoodautomate.com,BeveragePro,4871.44
+SUP4265203,SnackSync Co.,kayla80@snacksyncco.com,QuickCan 2000,2844.32
+SUP3117781,FastFood Automate,stephenwilcox@fastfoodautomate.com,VM-300,2253.03
+SUP9242680,FastFood Automate,luke04@fastfoodautomate.com,VM-100,2167.01
+SUP1830054,BrewMaster Vends,ernestjohnson@brewmastervends.com,VM-100,2790.5
+SUP6517719,MegaVend Systems,smithangela@megavendsystems.com,SnackMaster X,4270.87
+SUP1828490,EcoVend Tech,karen19@ecovendtech.com,BeveragePro,2186.48
+SUP1164367,BrewMaster Vends,iwilliams@brewmastervends.com,SnackMaster X,4284.55
+SUP5329135,VendTech Inc.,lsilva@vendtechinc.com,QuickCan 2000,1834.76
+SUP7835431,SnackMaster Pro,msellers@snackmasterpro.com,VM-300,4969.65
+SUP3682244,FastFood Automate,brittanywilliams@fastfoodautomate.com,BeveragePro,4639.9
+SUP1773694,FastFood Automate,allison29@fastfoodautomate.com,BeveragePro,2611.03
+SUP6966858,SnackWave Innovations,elizabeth27@snackwaveinnovations.com,SnackMaster X,1553.41
+SUP4065922,CoolCan Machines,smithsean@coolcanmachines.com,VM-300,4918.1
+SUP5143093,SnackSync Co.,john91@snacksyncco.com,VM-100,1683.06
+SUP8135993,SnackWave Innovations,sherryking@snackwaveinnovations.com,VM-200,3161.54
+SUP8161340,AutoSnack Systems,julia34@autosnacksystems.com,BeveragePro,2851.53
+SUP3133124,BeveragePro Systems,rodriguezmichele@beverageprosystems.com,QuickCan 2000,3183.07
+SUP9123133,SnackMaster Pro,victoriaharris@snackmasterpro.com,VM-300,4134.9
+SUP1853927,MegaSnack Systems,huntercassie@megasnacksystems.com,VM-100,3732.78
+SUP7427900,BrewMaster Vends,caldwellamy@brewmastervends.com,VM-200,3791.65
+SUP7040791,SnackSync Co.,leah91@snacksyncco.com,SnackMaster X,1802.41
+SUP3399913,EcoVend Tech,taylormunoz@ecovendtech.com,VM-100,4468.08
+SUP7088608,FreshBite Vends,osanchez@freshbitevends.com,QuickCan 2000,2455.94
+SUP1002796,QuickBite Machines,shaffersamantha@quickbitemachines.com,BeveragePro,3567.41
+SUP2185030,VendTech Inc.,ann77@vendtechinc.com,SnackMaster X,3546.22
+SUP9633255,FreshBite Vends,johndaniels@freshbitevends.com,BeveragePro,3730.63
+SUP1663942,VendCore Solutions,christopher11@vendcoresolutions.com,VM-300,1803.93
+SUP4784647,SnackSync Co.,jessicaperry@snacksyncco.com,VM-100,3181.0
+SUP2899114,SnackMaster Plus,tylerray@snackmasterplus.com,VM-300,3839.07
+SUP3612175,SnackWave Innovations,zwalker@snackwaveinnovations.com,VM-100,2888.36
+SUP6926358,MegaVend Systems,zoe48@megavendsystems.com,QuickCan 2000,4459.32
+SUP7120458,FastFood Automate,andersonjack@fastfoodautomate.com,BeveragePro,2435.42
+SUP4825663,SnackSync Co.,matthewbranch@snacksyncco.com,SnackMaster X,1592.54
+SUP8116166,QuickSnack Co.,tiffanydavis@quicksnackco.com,VM-200,2319.77
+SUP1212197,CoolDrink Vends,rogersmiguel@cooldrinkvends.com,BeveragePro,4852.9
+SUP1651077,QuickSnack Co.,bvelasquez@quicksnackco.com,VM-100,4558.0
+SUP6199965,BrewMaster Vends,david73@brewmastervends.com,BeveragePro,3918.81
+SUP1327710,VendGenius Pro,psavage@vendgeniuspro.com,VM-200,4746.37
+SUP1472662,VendGenius Pro,cpham@vendgeniuspro.com,VM-300,4408.79
+SUP1641026,QuickSnack Co.,jonessarah@quicksnackco.com,BeveragePro,2578.07
+SUP6358807,VendGenius Pro,fitzpatrickandrew@vendgeniuspro.com,BeveragePro,4107.89
+SUP2498175,AutoSnack Systems,charleswilliams@autosnacksystems.com,VM-200,2592.35
+SUP7573023,QuickSnack Co.,victoriaperry@quicksnackco.com,QuickCan 2000,3424.15
+SUP5450570,SnackMaster Plus,phillipcruz@snackmasterplus.com,VM-300,1638.67
+SUP3102963,SnackSync Co.,velezkayla@snacksyncco.com,VM-100,3075.46
+SUP8330518,FreshBite Vends,zwilliams@freshbitevends.com,VM-100,4796.62
+SUP9914444,AutoSnack Systems,johnhendricks@autosnacksystems.com,VM-100,4845.74
+SUP7828781,EcoVend Tech,jnelson@ecovendtech.com,VM-300,4873.82
+SUP1130778,SnackSync Co.,tgay@snacksyncco.com,VM-100,3559.24
+SUP1533853,QuickBite Machines,stoutrebecca@quickbitemachines.com,VM-300,3221.08
+SUP5988195,CoolDrink Vends,christianerickson@cooldrinkvends.com,VM-300,2317.79
+SUP3273552,AutoSnack Systems,amy39@autosnacksystems.com,VM-100,1605.03
+SUP4313384,CoolDrink Vends,barbara07@cooldrinkvends.com,BeveragePro,1940.59
+SUP8036993,SnackMaster Plus,ramseytimothy@snackmasterplus.com,VM-100,4939.87
