@@ -38,7 +38,7 @@ CREATE TABLE Employee (
 
     CONSTRAINT pk_Employee PRIMARY KEY (employee_ID),
     CONSTRAINT uq_Employee_Email UNIQUE (work_Email),
-    CONSTRAINT chk_Employee_Role CHECK (Role IN ('Technician','Supervisor_Tech','Lead_Tech','Management')),
+    CONSTRAINT chk_Employee_Role CHECK (Role IN ('Technician','Supervisor_Tech','Lead_Tech','Management'))
 );
 
 DROP TABLE IF EXISTS Maintenance;
@@ -47,7 +47,7 @@ CREATE TABLE Maintenance (
     lic_No      VARCHAR(50) NOT NULL,
 
     CONSTRAINT pk_Maintenance PRIMARY KEY (employee_ID),
-    CONSTRAINT spec_Employee CHECK (employee_ID IN (SELECT employee_ID FROM Employee WHERE Role = 'Technician', 'Supervisor_Tech', 'Lead_Tech')),
+    CONSTRAINT spec_Employee CHECK (employee_ID IN (SELECT employee_ID FROM Employee WHERE Role = ('Technician', 'Supervisor_Tech', 'Lead_Tech'))),
     CONSTRAINT fk_Maintenance_Employee
         FOREIGN KEY (employee_ID) REFERENCES Employee(employee_ID)
 );
@@ -143,7 +143,7 @@ CREATE TABLE Customer (
     street_Address VARCHAR(255)  NOT NULL,
 
     CONSTRAINT pk_Customer PRIMARY KEY (customer_ID),
-    CONSTRAINT uq_Customer_Email UNIQUE (Email)
+    CONSTRAINT uq_Customer_Email UNIQUE (Email),
     CONSTRAINT chk_Customer_AccountType CHECK 
         (account_Type IN ('Standard','Premium'))
 );
