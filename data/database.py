@@ -74,7 +74,7 @@ def generate_record_id():
 def generate_employee_id(role):
     """Generate employee ID in format MA#####[5 digits] for Management or TE#####[5 digits] for Technician"""
     number = f"{random.randint(10000, 99999)}"
-    if role == 'Manager':
+    if role == 'Management':
         return f"MA{number}"
     else:  # Technician
         return f"TE{number}"
@@ -116,19 +116,19 @@ def generate_employees():
     
     # Generate 200 Managers
     for i in range(200):
-        employee_id = generate_employee_id('Manager')
+        employee_id = generate_employee_id('Management')
         while employee_id in used_ids:
-            employee_id = generate_employee_id('Manager')
+            employee_id = generate_employee_id('Management')
         used_ids.add(employee_id)
         
         name = fake.name()
         employees.append({
             'employee_ID': employee_id,
             'Name': name,
-            'Role': 'Manager',
+            'Role': 'Management',
             'team_ID': None,  # Managers don't have teams
             'Contact': fake.email(),
-            'seniority_level': random.choice(['Junior', 'Mid', 'Senior', 'Lead']),  # Managers still have seniority levels
+            'seniority_level': random.choice(['Junior', 'Senior', 'Director']),  # Managers still have seniority levels
             'license_number': None  # Managers don't have licenses
         })
     
@@ -174,7 +174,7 @@ def generate_employees():
     # Update the supervisor in the employee list
     for emp in employees:
         if emp['employee_ID'] == supervisor_id:
-            emp['Role'] = 'Supervisor'  # Change role to Supervisor
+            emp['Role'] = 'Supervisor_Tech'  # Change role to Supervisor
             break
     
     return employees
@@ -221,7 +221,7 @@ def generate_vending_machines(count=3000):
         
         machines.append({
             'machine_ID': machine_id,
-            'Status': random.choice(['Active', 'Inactive', 'Under Maintenance']),
+            'Status': random.choice(['Functional', 'Repair', 'Decomissioned']),
             'purchase_Date': random_date(start_date, end_date).strftime('%Y-%m-%d')
         })
     return machines
