@@ -1,5 +1,6 @@
 import csv
 import random
+import os
 import string
 from datetime import datetime, timedelta
 from faker import Faker
@@ -7,7 +8,22 @@ from faker import Faker
 # Initialize Faker with Canadian locale
 fake = Faker('en_CA')
 
-# --- Data Constants ---
+# ============================
+#   FOLDER SETUP
+# ============================
+
+OUTPUT_FOLDER = "dump"
+
+def ensure_folder(folder_name):
+    """Create the folder if it does not already exist."""
+    if not os.path.exists(folder_name):
+        os.makedirs(folder_name)
+
+ensure_folder(OUTPUT_FOLDER)
+
+# ============================
+#   DATA CONSTANTS
+# ============================
 
 MANUFACTURER_BRANDS = [
     'VendTech Inc.', 'QuickSnack Co.', 'AutoBrew Ltd.', 'SnackMaster Pro',
@@ -41,24 +57,24 @@ CITIES = [
     'Abbotsford'
 ]
 
-# --- Helper Functions ---
+# ============================
+#   HELPER FUNCTIONS
+# ============================
 
 def random_date(start, end):
-    """Generate a random date between start and end."""
     delta = end - start
     int_delta = delta.days
     random_days = random.randint(0, int_delta)
     return start + timedelta(days=random_days)
 
 def generate_supplier_id():
-    """Generate 10-character supplier ID (SUP + 7 digits)."""
     return f"SUP{random.randint(1000000, 9999999)}"
 
 def generate_customer_id():
     return random.randint(1, 10000)
 
 def generate_machine_id():
-    return f"VM{random.randint(100, 999)}"
+    return f"VM{random.randint(1000, 9999)}"
 
 def generate_item_id():
     return random.randint(1, 10000)
@@ -70,16 +86,16 @@ def generate_employee_id():
     return f"EMP{random.randint(100, 999)}"
 
 def generate_license_number(role):
-    """LIC-M-XXXX for Management, LIC-T-XXXX for Technicians."""
     if role == 'Management':
         return f"LIC-M-{random.randint(2000, 2999)}"
     else:
         return f"LIC-T-{random.randint(1000, 1999)}"
 
-# --- Data Generation Functions ---
+# ============================
+#   DATA GENERATORS
+# ============================
 
 def generate_models():
-    """One model per base MODEL_TYPES; PK-safe and matches FK."""
     models = []
     for base in MODEL_TYPES:
         models.append({
@@ -102,14 +118,13 @@ def generate_manufacturers(models, count=100):
         used_ids.add(supplier_id)
 
         brand = random.choice(MANUFACTURER_BRANDS)
-        # domain from brand name
         domain = ''.join(c for c in brand.lower() if c.isalnum())
         email = fake.email(domain=f"{domain}.com")
         while email in used_emails:
             email = fake.email(domain=f"{domain}.com")
         used_emails.add(email)
 
-        supply_type = random.choice(model_types)  # FK-safe
+        supply_type = random.choice(model_types)
 
         manufacturers.append({
             'supplier_ID': supplier_id,
@@ -127,7 +142,7 @@ def generate_employees():
     used_ids = set()
     used_emails = set()
 
-    # --- Managers (go into Employee + Management) ---
+    # Managers
     for _ in range(200):
         employee_id = generate_employee_id()
         while employee_id in used_ids:
@@ -136,9 +151,7 @@ def generate_employees():
 
         first_name = fake.first_name()
         last_name = fake.last_name()
-
         role = 'Management'
-        # Must match CHECK (Junior, Senior, Director)
         seniority_level = random.choice(['Junior', 'Senior', 'Director'])
         license_number = generate_license_number(role)
 
@@ -162,7 +175,7 @@ def generate_employees():
             'seniority_Lvl': seniority_level
         })
 
-    # --- Technicians (go into Employee + Maintenance) ---
+    # Technicians
     for _ in range(300):
         employee_id = generate_employee_id()
         while employee_id in used_ids:
@@ -173,11 +186,7 @@ def generate_employees():
         last_name = fake.last_name()
 
         role = random.choice(['Technician', 'Lead_Tech', 'Supervisor_Tech'])
-        if role in ['Lead_Tech', 'Supervisor_Tech']:
-            seniority_level = random.choice(['Senior'])
-        else:
-            seniority_level = random.choice(['Junior', 'Mid'])
-
+        seniority_level = 'Senior' if role in ['Lead_Tech', 'Supervisor_Tech'] else random.choice(['Junior', 'Mid'])
         license_number = generate_license_number('Technician')
 
         email = fake.email()
@@ -238,10 +247,6 @@ def generate_customers(count=500):
         })
     return customers
 
-def generate_machine_id():
-    """Generate machine ID (VM + 4 digits)"""
-    return f"VM{random.randint(1000, 9999)}"
-
 def generate_vending_machines(count=3000):
     machines = []
     used_ids = set()
@@ -298,12 +303,10 @@ def generate_records(count=5000):
 
         req_date = random_date(start_date, end_date)
 
-        # 50% chance of being completed
         if random.choice([True, False]):
             comp_date = req_date + timedelta(days=random.randint(0, 7))
             comp_str = comp_date.strftime('%Y-%m-%d')
         else:
-            # Write \N so MySQL LOAD DATA treats it as NULL
             comp_str = r'\N'
 
         records.append({
@@ -313,15 +316,20 @@ def generate_records(count=5000):
         })
     return records
 
-# --- CSV Writer ---
+# ============================
+#   CSV WRITER
+# ============================
 
-def write_csv(filename, fieldnames, data):
-    with open(filename, mode='w', newline='', encoding='utf-8') as file:
+def write_csv(folder, filename, fieldnames, data):
+    filepath = os.path.join(folder, filename)
+    with open(filepath, mode='w', newline='', encoding='utf-8') as file:
         writer = csv.DictWriter(file, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(data)
 
-# --- Generate Everything ---
+# ============================
+#   GENERATION + EXPORT
+# ============================
 
 print("Generating realistic data for all tables...")
 
@@ -333,7 +341,7 @@ vending_machines = generate_vending_machines()
 stock = generate_stock()
 records = generate_records()
 
-# Sub-records for Maintenance_Record, Payment_Record, Restock_Record
+# Sub-record assignments
 num_records = len(records)
 num_maint = num_records // 3
 num_pay = num_records // 3
@@ -376,19 +384,21 @@ for record_id in restock_ids:
         'Cost': cost
     })
 
-# --- Write CSV Files ---
+# ============================
+#   WRITE CSVs TO /dump
+# ============================
 
-write_csv('Model.csv', ['model_Type', 'price', 'capacity'], models)
-write_csv('Manufacturer.csv', ['supplier_ID', 'manufact_Brand', 'contactInfo', 'supply_Type', 'Price'], manufacturers)
-write_csv('Employee.csv', ['employee_ID', 'f_Name', 'l_Name', 'role', 'work_email', 'lic_num', 'seniority_level'], employees)
-write_csv('Maintenance.csv', ['employee_ID', 'lic_No'], maintenance)
-write_csv('Management.csv', ['employee_ID', 'seniority_Lvl'], management)
-write_csv('Customer.csv', ['customer_ID', 'Email', 'account_Type', 'f_Name', 'l_Name', 'Address', 'Province', 'City', 'street_Address'], customers)
-write_csv('Vending_Machine.csv', ['machine_ID', 'Status', 'purchase_Date'], vending_machines)
-write_csv('Stock.csv', ['item_ID', 'Name', 'Category', 'wholesale_Cost', 'warehouse_Loc'], stock)
-write_csv('Record.csv', ['record_ID', 'date_Requested', 'date_Completed'], records)
-write_csv('Payment_Record.csv', ['record_ID', 'payment_Type', 'amount_Paid'], pay_records)
-write_csv('Maintenance_Record.csv', ['record_ID', 'Description', 'Status'], maint_records)
-write_csv('Restock_Record.csv', ['record_ID', 'Quantity', 'Cost'], restock_records)
+write_csv(OUTPUT_FOLDER, 'Model.csv', ['model_Type', 'price', 'capacity'], models)
+write_csv(OUTPUT_FOLDER, 'Manufacturer.csv', ['supplier_ID', 'manufact_Brand', 'contactInfo', 'supply_Type', 'Price'], manufacturers)
+write_csv(OUTPUT_FOLDER, 'Employee.csv', ['employee_ID', 'f_Name', 'l_Name', 'role', 'work_email', 'lic_num', 'seniority_level'], employees)
+write_csv(OUTPUT_FOLDER, 'Maintenance.csv', ['employee_ID', 'lic_No'], maintenance)
+write_csv(OUTPUT_FOLDER, 'Management.csv', ['employee_ID', 'seniority_Lvl'], management)
+write_csv(OUTPUT_FOLDER, 'Customer.csv', ['customer_ID', 'Email', 'account_Type', 'f_Name', 'l_Name', 'Address', 'Province', 'City', 'street_Address'], customers)
+write_csv(OUTPUT_FOLDER, 'Vending_Machine.csv', ['machine_ID', 'Status', 'purchase_Date'], vending_machines)
+write_csv(OUTPUT_FOLDER, 'Stock.csv', ['item_ID', 'Name', 'Category', 'wholesale_Cost', 'warehouse_Loc'], stock)
+write_csv(OUTPUT_FOLDER, 'Record.csv', ['record_ID', 'date_Requested', 'date_Completed'], records)
+write_csv(OUTPUT_FOLDER, 'Payment_Record.csv', ['record_ID', 'payment_Type', 'amount_Paid'], pay_records)
+write_csv(OUTPUT_FOLDER, 'Maintenance_Record.csv', ['record_ID', 'Description', 'Status'], maint_records)
+write_csv(OUTPUT_FOLDER, 'Restock_Record.csv', ['record_ID', 'Quantity', 'Cost'], restock_records)
 
-print("Done! CSV files generated in current folder.")
+print("Done! CSV files generated in /dump folder.")
