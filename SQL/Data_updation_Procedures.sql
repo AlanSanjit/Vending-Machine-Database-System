@@ -1,5 +1,9 @@
 USE vending_machine_database_system;
 
+-- Removing the seniority levels from the maintenance employees
+UPDATE Employee
+SET seniority_level = ''
+WHERE employee_ID IN (SELECT employee_ID FROM Maintenance);
 DELIMITER $$
 
 -- Helper procedure: add salary column only if it does NOT exist
@@ -87,5 +91,17 @@ END$$
 DELIMITER ;
 
 CALL set_employee_salaries();
+select * from employee;
 CALL remove_management_licenses();
+select * from employee;
 CALL delete_old_maintenance_records();
+SELECT
+    mr.record_ID,
+    r.date_Requested,
+    r.date_completed,
+    mr.Description,
+    mr.Status
+FROM Maintenance_Record mr
+JOIN Record r
+      ON mr.record_ID = r.record_ID
+ORDER BY r.date_completed DESC;
